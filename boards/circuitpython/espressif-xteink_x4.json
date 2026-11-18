@@ -1,0 +1,170 @@
+{
+ "board": "Xteink X4",
+ "aliases": [
+  "xteink_x4"
+ ],
+ "mcu": "ESP32-C3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/xteink_x4/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO3",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "BOOT0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT0), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "BUTTON_ADC_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_ADC_1), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "BUTTON_ADC_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_ADC_2), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO20) },"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "D20",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D20), MP_ROM_PTR(&pin_GPIO20) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "EPD_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_MOSI), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "EPD_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_SCK), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SD_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_MISO), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_CS), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "EPD_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_BUSY), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "EPD_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_RESET), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "EPD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_DC), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "EPD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_CS), MP_ROM_PTR(&pin_GPIO21) },"
+  }
+ ]
+}

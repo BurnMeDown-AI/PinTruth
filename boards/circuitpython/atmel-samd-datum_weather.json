@@ -1,0 +1,163 @@
+{
+ "board": "J&J Studios datum-Weather",
+ "aliases": [
+  "datum_weather"
+ ],
+ "mcu": "samd21g18",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/datum_weather/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PB11",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PB11) },"
+  },
+  {
+   "pin": "PB10",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PB10) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA11",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_PA11) },"
+  },
+  {
+   "pin": "PA11",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PA11) },"
+  },
+  {
+   "pin": "PA10",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_PA10) },"
+  },
+  {
+   "pin": "PA10",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PA10) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA09",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D3), MP_ROM_PTR(&pin_PA09) },"
+  },
+  {
+   "pin": "PA08",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D4), MP_ROM_PTR(&pin_PA08) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA21",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D7), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA27",
+   "function": "TX_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX_LED), MP_ROM_PTR(&pin_PA27) },"
+  }
+ ]
+}

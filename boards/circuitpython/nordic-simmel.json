@@ -1,0 +1,79 @@
+{
+ "board": "Simmel",
+ "aliases": [
+  "simmel"
+ ],
+ "mcu": "nRF52833",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/simmel/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P1_06",
+   "function": "SPI_CSN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_CSN), MP_ROM_PTR(&pin_P1_06) },"
+  },
+  {
+   "pin": "P1_04",
+   "function": "SPI_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MISO), MP_ROM_PTR(&pin_P1_04) },"
+  },
+  {
+   "pin": "P0_09",
+   "function": "SPI_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MOSI), MP_ROM_PTR(&pin_P0_09) },"
+  },
+  {
+   "pin": "P0_10",
+   "function": "SPI_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_SCK), MP_ROM_PTR(&pin_P0_10) },"
+  },
+  {
+   "pin": "P0_09",
+   "function": "NFC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NFC1), MP_ROM_PTR(&pin_P0_09) },"
+  },
+  {
+   "pin": "P0_10",
+   "function": "NFC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NFC2), MP_ROM_PTR(&pin_P0_10) },"
+  },
+  {
+   "pin": "P0_06",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_P0_06) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P1_09",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_P1_09) },"
+  }
+ ]
+}

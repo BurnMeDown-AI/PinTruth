@@ -1,0 +1,107 @@
+{
+ "board": "xteink_x4",
+ "aliases": [
+  "xteink_x4"
+ ],
+ "mcu": "esp32c3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/xteink_x4/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO3",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BUTTON 3"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 20;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 21;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 10;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 7;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 8;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "EPD_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EPD_RESET = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "EPD_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EPD_BUSY = 6;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "EPD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EPD_DC = 4;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CS = 12;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 0;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 2;"
+  }
+ ]
+}

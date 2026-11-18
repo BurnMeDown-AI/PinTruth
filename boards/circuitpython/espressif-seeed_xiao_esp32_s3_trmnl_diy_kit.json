@@ -1,0 +1,170 @@
+{
+ "board": "Seeed Xiao ESP32-S3 Trmnl DIY Kit",
+ "aliases": [
+  "seeed_xiao_esp32_s3_trmnl_diy_kit"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/seeed_xiao_esp32_s3_trmnl_diy_kit/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "BAT_ADC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BAT_ADC), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "BTN1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN1), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "BTN2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN2), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "EDP_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EDP_BUSY), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "BTN3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN3), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "ADC_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ADC_EN), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SPI0_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI0_CLK), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "SPI0_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI0_MOSI), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "EDP_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EDP_DC), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SPI1_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI1_MOSI), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SPI1_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI1_MISO), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "SPI1_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI1_CLK), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "EDP_RES",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EDP_RES), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SPI1_CS0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI1_CS0), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "SPI1_CS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI1_CS1), MP_ROM_PTR(&pin_GPIO40) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D14), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "D15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D15), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "PWR_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PWR_EN), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "SPI0_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI0_CS), MP_ROM_PTR(&pin_GPIO44) },"
+  }
+ ]
+}

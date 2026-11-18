@@ -1,0 +1,149 @@
+{
+ "board": "ThingPulse Pendrive S3",
+ "aliases": [
+  "thingpulse_pendrive_s3"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/thingpulse_pendrive_s3/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "TouchIn",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TouchIn), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "D33",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D33), MP_ROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "D34",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D34), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CS), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "D35",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D35), MP_ROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "D36",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D36), MP_ROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCLK), MP_ROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "D37",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D37), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "D38",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D38), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "D39",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D39), MP_ROM_PTR(&pin_GPIO39) },"
+  }
+ ]
+}

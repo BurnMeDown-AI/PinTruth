@@ -1,0 +1,30 @@
+{
+ "board": "waveshare_esp32_s3_touch_lcd_43c",
+ "aliases": [
+  "waveshare_esp32_s3_touch_lcd_43c"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/waveshare_esp32_s3_touch_lcd_43c/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO8",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 8;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 9;"
+  }
+ ]
+}

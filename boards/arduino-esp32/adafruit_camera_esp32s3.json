@@ -1,0 +1,194 @@
+{
+ "board": "adafruit_camera_esp32s3",
+ "aliases": [
+  "adafruit_camera_esp32s3"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/adafruit_camera_esp32s3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "PIN_NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PIN_NEOPIXEL = 1;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "NEOPIXEL_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t NEOPIXEL_PIN = 1;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "TFT_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_BACKLIGHT = 45;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_DC = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_CS = 39;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "TFT_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_RESET = 38;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "TFT_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_RST = 38;"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CS = 48;"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SD_CHIP_SELECT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CHIP_SELECT = 48;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "SPEAKER",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SPEAKER = 46;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 33;"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 34;"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 48;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 35;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 36;"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 37;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 18;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "BATT_MONITOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BATT_MONITOR = 4;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "BAT_VOLT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BAT_VOLT_PIN BATT_MONITOR",
+   "also": [
+    "static const uint8_t BATT_MONITOR = 4;"
+   ]
+  },
+  {
+   "pin": "GPIO0",
+   "function": "SHUTTER_BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SHUTTER_BUTTON = 0;"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 43;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 44;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "DAC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC1 = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "DAC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC2 = 18;"
+  }
+ ]
+}

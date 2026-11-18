@@ -1,0 +1,317 @@
+{
+ "board": "Artisense Reference Design RD00",
+ "aliases": [
+  "artisense_rd00"
+ ],
+ "mcu": "ESP32S2",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/artisense_rd00/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "IO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO0), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "IO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO1), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "IO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO2), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "IO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO3), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "IO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO4), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "CAM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "HVIO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVIO0), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "HVIO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVIO1), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "HVIO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVIO2), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "HVIO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVIO3), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "HVIO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVIO4), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "HVCAM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HVCAM), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "LVIO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVIO0), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "LVIO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVIO1), MP_ROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "LVIO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVIO2), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "LVIO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVIO3), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "LVIO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVIO4), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "LVCAM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LVCAM), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "DIRIO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRIO0), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "DIRIO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRIO1), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "DIRIO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRIO2), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "DIRIO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRIO3), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "DIRIO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRIO4), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "DIRCAM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DIRCAM), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D2), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D3), MP_ROM_PTR(&pin_GPIO40) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D4), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D7), MP_ROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "DBG_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DBG_TX), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "DBG_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DBG_RX), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "RS232_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RS232_TX), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "RS232_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RS232_RX), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "RS232_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RS232_EN), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "DFU",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DFU), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "SW1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW1), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_GPIO45) },"
+  }
+ ]
+}

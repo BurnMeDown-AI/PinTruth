@@ -1,0 +1,72 @@
+{
+ "board": "esp32s3camlcd",
+ "aliases": [
+  "esp32s3camlcd"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/esp32s3camlcd/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 43;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 44;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 18;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 11;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 12;"
+  }
+ ]
+}

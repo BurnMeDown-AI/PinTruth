@@ -1,0 +1,177 @@
+{
+ "board": "Capable Robot Programmable USB Hub",
+ "aliases": [
+  "capablerobot_usbhub"
+ ],
+ "mcu": "samd51g19",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/capablerobot_usbhub/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA02",
+   "function": "ANMB",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ANMB), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "ANVLIM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ANVLIM), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "AN5V",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_AN5V), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "MBPWM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MBPWM), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "MBINT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MBINT), MP_ROM_PTR(&pin_PA15) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "MBCS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MBCS), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "MBRST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MBRST), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "LED1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED1), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "LED2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED2), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA21",
+   "function": "LED3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED3), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "USBHOSTEN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_USBHOSTEN), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "USBRESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_USBRESET), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB22",
+   "function": "USBBCEN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_USBBCEN), MP_ROM_PTR(&pin_PB22) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "PCBREV",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PCBREV), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "SDA2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA2), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "SCL2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL2), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PA00",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PB23",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PB23) },"
+  }
+ ]
+}

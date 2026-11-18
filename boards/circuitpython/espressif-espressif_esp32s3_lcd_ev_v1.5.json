@@ -1,0 +1,93 @@
+{
+ "board": "Espressif-ESP32-S3-LCD-EV-Board_v1.5",
+ "aliases": [
+  "espressif_esp32s3_lcd_ev_v1.5"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/espressif_esp32s3_lcd_ev_v1.5/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO17",
+   "function": "de",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_de), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "vsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_vsync), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "hsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_hsync), MP_ROM_PTR(&pin_GPIO46) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "dclk",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_dclk), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "I2S_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SCK), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "I2S_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_MCLK), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "I2S_SDO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SDO), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO0) },"
+  }
+ ]
+}

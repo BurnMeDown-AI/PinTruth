@@ -1,0 +1,359 @@
+{
+ "board": "WSC-1450",
+ "aliases": [
+  "pctel_wsc_1450"
+ ],
+ "mcu": "nRF52840",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/pctel_wsc_1450/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_00",
+   "function": "32KHZ_XTAL1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_32KHZ_XTAL1), MP_ROM_PTR(&pin_P0_00)},"
+  },
+  {
+   "pin": "P0_01",
+   "function": "32KHZ_XTAL2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_32KHZ_XTAL2), MP_ROM_PTR(&pin_P0_01)},"
+  },
+  {
+   "pin": "P0_02",
+   "function": "BATTERY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BATTERY), MP_ROM_PTR(&pin_P0_02)},"
+  },
+  {
+   "pin": "P0_03",
+   "function": "BOARD_ID",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BOARD_ID), MP_ROM_PTR(&pin_P0_03)},"
+  },
+  {
+   "pin": "P0_04",
+   "function": "INT_LIGHT_TOF",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_INT_LIGHT_TOF), MP_ROM_PTR(&pin_P0_04)},"
+  },
+  {
+   "pin": "P0_05",
+   "function": "LED_RED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LED_RED), MP_ROM_PTR(&pin_P0_05)},"
+  },
+  {
+   "pin": "P0_06",
+   "function": "I2S_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_I2S_SCK), MP_ROM_PTR(&pin_P0_06)},"
+  },
+  {
+   "pin": "P0_07",
+   "function": "LORA_SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_SCLK), MP_ROM_PTR(&pin_P0_07)},"
+  },
+  {
+   "pin": "P0_08",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_P0_08)},"
+  },
+  {
+   "pin": "P0_09",
+   "function": "NFC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_NFC1), MP_ROM_PTR(&pin_P0_09)},"
+  },
+  {
+   "pin": "P0_10",
+   "function": "NFC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_NFC2), MP_ROM_PTR(&pin_P0_10)},"
+  },
+  {
+   "pin": "P0_11",
+   "function": "LORA_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_MOSI), MP_ROM_PTR(&pin_P0_11)},"
+  },
+  {
+   "pin": "P0_12",
+   "function": "LORA_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_MISO), MP_ROM_PTR(&pin_P0_12)},"
+  },
+  {
+   "pin": "P0_13",
+   "function": "DEBUG_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_DEBUG_TX), MP_ROM_PTR(&pin_P0_13)},"
+  },
+  {
+   "pin": "P0_14",
+   "function": "CELL_RTS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_RTS), MP_ROM_PTR(&pin_P0_14)},"
+  },
+  {
+   "pin": "P0_15",
+   "function": "CELL_DCD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_DCD), MP_ROM_PTR(&pin_P0_15)},"
+  },
+  {
+   "pin": "P0_16",
+   "function": "DEBUG_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_DEBUG_RX), MP_ROM_PTR(&pin_P0_16)},"
+  },
+  {
+   "pin": "P0_17",
+   "function": "QSPI_CSN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_CSN), MP_ROM_PTR(&pin_P0_17)},"
+  },
+  {
+   "pin": "P0_18",
+   "function": "BT840_RESETN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BT840_RESETN), MP_ROM_PTR(&pin_P0_18)},"
+  },
+  {
+   "pin": "P0_19",
+   "function": "QSPI_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_CLK), MP_ROM_PTR(&pin_P0_19)},"
+  },
+  {
+   "pin": "P0_20",
+   "function": "QSPI_IO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_IO0), MP_ROM_PTR(&pin_P0_20)},"
+  },
+  {
+   "pin": "P0_21",
+   "function": "QSPI_IO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_IO1), MP_ROM_PTR(&pin_P0_21)},"
+  },
+  {
+   "pin": "P0_22",
+   "function": "QSPI_IO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_IO2), MP_ROM_PTR(&pin_P0_22)},"
+  },
+  {
+   "pin": "P0_23",
+   "function": "QSPI_IO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_QSPI_IO3), MP_ROM_PTR(&pin_P0_23)},"
+  },
+  {
+   "pin": "P0_24",
+   "function": "CELL_HW_SHUTDOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_HW_SHUTDOWN), MP_ROM_PTR(&pin_P0_24)},"
+  },
+  {
+   "pin": "P0_25",
+   "function": "I2S_SD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_I2S_SD), MP_ROM_PTR(&pin_P0_25)},"
+  },
+  {
+   "pin": "P0_26",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_P0_26)},"
+  },
+  {
+   "pin": "P0_27",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_P0_27)},"
+  },
+  {
+   "pin": "P0_28",
+   "function": "CELL_POWER_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_POWER_ENABLE), MP_ROM_PTR(&pin_P0_28)},"
+  },
+  {
+   "pin": "P0_29",
+   "function": "PUSH_BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_PUSH_BUTTON), MP_ROM_PTR(&pin_P0_29)},"
+  },
+  {
+   "pin": "P0_30",
+   "function": "CELL_ON_OFF",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_ON_OFF), MP_ROM_PTR(&pin_P0_30)},"
+  },
+  {
+   "pin": "P0_31",
+   "function": "SENSOR_POWER_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_SENSOR_POWER_ENABLE), MP_ROM_PTR(&pin_P0_31)},"
+  },
+  {
+   "pin": "P1_00",
+   "function": "BT840_SWO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BT840_SWO), MP_ROM_PTR(&pin_P1_00)},"
+  },
+  {
+   "pin": "P1_01",
+   "function": "CELL_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_RX), MP_ROM_PTR(&pin_P1_01)},"
+  },
+  {
+   "pin": "P1_02",
+   "function": "CELL_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_TX), MP_ROM_PTR(&pin_P1_02)},"
+  },
+  {
+   "pin": "P1_03",
+   "function": "CELL_DSR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_DSR), MP_ROM_PTR(&pin_P1_03)},"
+  },
+  {
+   "pin": "P1_04",
+   "function": "CELL_DTR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_DTR), MP_ROM_PTR(&pin_P1_04)},"
+  },
+  {
+   "pin": "P1_05",
+   "function": "INT_ACCEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_INT_ACCEL), MP_ROM_PTR(&pin_P1_05)},"
+  },
+  {
+   "pin": "P1_06",
+   "function": "BOARD_ID_DISABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BOARD_ID_DISABLE), MP_ROM_PTR(&pin_P1_06)},"
+  },
+  {
+   "pin": "P1_07",
+   "function": "LORA_DIO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_DIO0), MP_ROM_PTR(&pin_P1_07)},"
+  },
+  {
+   "pin": "P1_08",
+   "function": "CELL_CTS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_CTS), MP_ROM_PTR(&pin_P1_08)},"
+  },
+  {
+   "pin": "P1_09",
+   "function": "LORA_SSN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_SSN), MP_ROM_PTR(&pin_P1_09)},"
+  },
+  {
+   "pin": "P1_10",
+   "function": "LORA_RESETN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_RESETN), MP_ROM_PTR(&pin_P1_10)},"
+  },
+  {
+   "pin": "P1_11",
+   "function": "BATTERY_MONITOR_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_BATTERY_MONITOR_ENABLE), MP_ROM_PTR(&pin_P1_11)},"
+  },
+  {
+   "pin": "P1_12",
+   "function": "LORA_DIO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_DIO1), MP_ROM_PTR(&pin_P1_12)},"
+  },
+  {
+   "pin": "P1_13",
+   "function": "LORA_DIO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_DIO2), MP_ROM_PTR(&pin_P1_13)},"
+  },
+  {
+   "pin": "P1_14",
+   "function": "LORA_DIO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_DIO3), MP_ROM_PTR(&pin_P1_14)},"
+  },
+  {
+   "pin": "P1_15",
+   "function": "CELL_PWRMON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_CELL_PWRMON), MP_ROM_PTR(&pin_P1_15)},"
+  },
+  {
+   "pin": "P1_15",
+   "function": "LORA_DIO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{MP_ROM_QSTR(MP_QSTR_LORA_DIO4), MP_ROM_PTR(&pin_P1_15)},"
+  }
+ ]
+}

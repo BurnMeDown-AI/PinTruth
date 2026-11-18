@@ -1,0 +1,121 @@
+{
+ "board": "Brad\u00e1n Lane STUDIO Coin M0",
+ "aliases": [
+  "bradanlanestudio_coin_m0"
+ ],
+ "mcu": "samd21g18",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/bradanlanestudio_coin_m0/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA07",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_PA02) }, // Analog only; no PWM"
+  },
+  {
+   "pin": "PA02",
+   "function": "SPEAKER",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPEAKER), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "TOUCH2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH2), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "TOUCH1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH1), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A5), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "TOUCH3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH3), MP_ROM_PTR(&pin_PB02) },"
+  }
+ ]
+}

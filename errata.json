@@ -1,0 +1,124 @@
+[
+ {
+  "board": "lolin_s3_mini_pro",
+  "names": [
+   "MOSI",
+   "MISO"
+  ],
+  "verdict": "arduino-esp32 is right; CircuitPython has MOSI and MISO swapped",
+  "confidence": "confirmed",
+  "evidence": [
+   {
+    "url": "https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_pro_v1.0.0.pdf",
+    "quote": "IO38/MOSI",
+    "note": "WEMOS schematic net label (PDF, checked by hand)"
+   },
+   {
+    "url": "https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_pro_v1.0.0.pdf",
+    "quote": "IO39/MISO",
+    "note": "WEMOS schematic net label (PDF, checked by hand)"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/lolin_s3_mini_pro/pins_arduino.h",
+    "quote": "static const uint8_t MOSI = 38;",
+    "note": "file written by WEMOS"
+   }
+  ]
+ },
+ {
+  "board": "heltec_vision_master_e290",
+  "names": [
+   "SDA",
+   "SCL"
+  ],
+  "verdict": "probably arduino-esp32 (written by Heltec); CircuitPython's community file has them swapped",
+  "confidence": "likely",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/heltec_vision_master_e290/pins_arduino.h",
+    "quote": "static const uint8_t SDA = 39;",
+    "note": "first commit by RichardHeltec; schematic text does not tie the I2C nets to GPIOs"
+   }
+  ]
+ },
+ {
+  "board": "lolin_c3_mini",
+  "names": [
+   "SDA",
+   "SCL",
+   "SCK"
+  ],
+  "verdict": "probably arduino-esp32 (written by WEMOS); CircuitPython's SCK=GPIO10 is WEMOS's SCL",
+  "confidence": "likely",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/lolin_c3_mini/pins_arduino.h",
+    "quote": "static const uint8_t SDA = 8;",
+    "note": "file written by WEMOS Electronics"
+   }
+  ]
+ },
+ {
+  "board": "lolin_s2_mini",
+  "names": [
+   "A0"
+  ],
+  "verdict": "both right, different meaning: CircuitPython A0 is the D1-mini A0 header position, arduino-esp32 A0 is ADC1_CH0 (GPIO1)",
+  "confidence": "convention",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/lolin_s2_mini/pins.c",
+    "quote": "{ MP_ROM_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_GPIO3) }, // D1 mini pin A0"
+   }
+  ]
+ },
+ {
+  "board": "adafruit_metro_esp32s2",
+  "names": [
+   "TX",
+   "RX"
+  ],
+  "verdict": "unresolved: the board prints IO5/IO6, not TX/RX, so both are software choices",
+  "confidence": "unresolved",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/adafruit/Adafruit-Metro-ESP32-S2-PCB/42dac1c66d3001a97ef5565b1fea2e842364df32/Adafruit%20Metro%20ESP32-S2%20rev%20C.sch",
+    "quote": "<net name=\"D5\" class=\"0\">",
+    "note": "schematic names the header nets D5/D6 after their GPIOs"
+   }
+  ]
+ },
+ {
+  "board": "sensebox_mcu_esp32s2",
+  "names": [
+   "TX1",
+   "RX1"
+  ],
+  "verdict": "unresolved: the same senseBox developer wrote both files and they disagree (XBee socket; likely MCU-vs-module perspective)",
+  "confidence": "unresolved",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/sensebox_mcu_esp32s2/pins_arduino.h",
+    "quote": "static const uint8_t TX1 = 17;"
+   },
+   {
+    "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/sensebox_mcu_esp32s2/pins.c",
+    "quote": "{ MP_ROM_QSTR(MP_QSTR_TX1), MP_ROM_PTR(&pin_GPIO18) },"
+   }
+  ]
+ },
+ {
+  "board": "waveshare_esp32_s3_zero",
+  "names": [
+   "D*"
+  ],
+  "verdict": "both right, different numbering: CircuitPython uses Dn = GPIOn, arduino-esp32 numbers the header in order",
+  "confidence": "convention",
+  "evidence": [
+   {
+    "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/waveshare_esp32_s3_zero/pins_arduino.h",
+    "quote": "static const uint8_t D0 = 7;"
+   }
+  ]
+ }
+]

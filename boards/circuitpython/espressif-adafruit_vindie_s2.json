@@ -1,0 +1,135 @@
+{
+ "board": "Adafruit Vindie S2",
+ "aliases": [
+  "adafruit_vindie_s2"
+ ],
+ "mcu": "ESP32S2",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/adafruit_vindie_s2/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "FAN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_FAN), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "D34",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D34), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "L",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_L), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "D21",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D21), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO45) },"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "D45",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D45), MP_ROM_PTR(&pin_GPIO45) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_GPIO33) },"
+  }
+ ]
+}

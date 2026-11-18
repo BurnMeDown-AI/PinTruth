@@ -1,0 +1,23 @@
+{
+ "board": "alfredo-nou3",
+ "aliases": [
+  "alfredo-nou3"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/alfredo-nou3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO45",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN 45"
+  }
+ ]
+}

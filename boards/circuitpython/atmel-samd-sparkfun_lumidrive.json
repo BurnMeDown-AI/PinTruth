@@ -1,0 +1,86 @@
+{
+ "board": "SparkFun LUMIDrive",
+ "aliases": [
+  "sparkfun_lumidrive"
+ ],
+ "mcu": "samd21g18",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/sparkfun_lumidrive/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA04",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA17) },"
+  }
+ ]
+}

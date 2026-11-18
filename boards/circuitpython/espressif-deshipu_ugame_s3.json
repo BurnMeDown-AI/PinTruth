@@ -1,0 +1,198 @@
+{
+ "board": "uGame S3",
+ "aliases": [
+  "deshipu_ugame_s3"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/deshipu_ugame_s3/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO43",
+   "function": "P1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "P2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "P3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "P4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P4), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "P5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P5), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "P6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P6), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "P7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P7), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "BUTTON_LEFT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_LEFT), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "BUTTON_UP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_UP), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "BUTTON_RIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_RIGHT), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "BUTTON_DOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_DOWN), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON_X",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_X), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "BUTTON_O",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_O), MP_ROM_PTR(&pin_GPIO48) },"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "BUTTON_Z",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_Z), MP_ROM_PTR(&pin_GPIO47) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "LIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LIGHT), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "BATTERY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BATTERY), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "AUDIO_BCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_BCLK), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "AUDIO_LRCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_LRCLK), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "AUDIO_DATA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_DATA), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "AUDIO_GAIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_GAIN), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "TFT_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_RESET), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_CS), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_DC), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "TFT_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_BACKLIGHT), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "TFT_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_SCK), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "TFT_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_MOSI), MP_ROM_PTR(&pin_GPIO11) },"
+  }
+ ]
+}

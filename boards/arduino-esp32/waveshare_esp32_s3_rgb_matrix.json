@@ -1,0 +1,171 @@
+{
+ "board": "waveshare_esp32_s3_rgb_matrix",
+ "aliases": [
+  "waveshare_esp32_s3_rgb_matrix"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/waveshare_esp32_s3_rgb_matrix/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO47",
+   "function": "I2C_SDA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define I2C_SDA_PIN BOARD_I2C_SDA",
+   "also": [
+    "#define BOARD_I2C_SDA 47"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "I2C_SCL_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define I2C_SCL_PIN BOARD_I2C_SCL",
+   "also": [
+    "#define BOARD_I2C_SCL 48"
+   ]
+  },
+  {
+   "pin": "GPIO47",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = BOARD_I2C_SDA;",
+   "also": [
+    "#define BOARD_I2C_SDA 47"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = BOARD_I2C_SCL;",
+   "also": [
+    "#define BOARD_I2C_SCL 48"
+   ]
+  },
+  {
+   "pin": "GPIO4",
+   "function": "WS_HUB75_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_R1_PIN 4"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "WS_HUB75_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_G1_PIN 5"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "WS_HUB75_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_B1_PIN 6"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "WS_HUB75_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_R2_PIN 7"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "WS_HUB75_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_G2_PIN 15"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "WS_HUB75_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_B2_PIN 16"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "WS_HUB75_A_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_A_PIN 18"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "WS_HUB75_B_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_B_PIN 8"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "WS_HUB75_C_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_C_PIN 3"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "WS_HUB75_D_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_D_PIN 42"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "WS_HUB75_E_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_E_PIN 9"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "WS_HUB75_LAT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_LAT_PIN 40"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "WS_HUB75_OE_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_OE_PIN 2"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "WS_HUB75_CLK_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WS_HUB75_CLK_PIN 41"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOARD_BUTTON_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BOARD_BUTTON_PIN 0"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON_BUILTIN = BOARD_BUTTON_PIN;",
+   "also": [
+    "#define BOARD_BUTTON_PIN 0"
+   ]
+  }
+ ]
+}

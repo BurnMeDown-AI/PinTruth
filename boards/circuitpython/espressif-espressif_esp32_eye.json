@@ -1,0 +1,93 @@
+{
+ "board": "Espressif ESP32-EYE",
+ "aliases": [
+  "espressif_esp32_eye"
+ ],
+ "mcu": "ESP32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/espressif_esp32_eye/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO26",
+   "function": "I2S_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SCK), MP_ROM_PTR(&pin_GPIO26) },"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_GPIO32) },"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "I2S_SDO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SDO), MP_ROM_PTR(&pin_GPIO32) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "LED_RED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_RED), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "LED_WHITE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_WHITE), MP_ROM_PTR(&pin_GPIO22) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "CAMERA_VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAMERA_VSYNC), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "CAMERA_HREF",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAMERA_HREF), MP_ROM_PTR(&pin_GPIO27) },"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "CAMERA_PCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAMERA_PCLK), MP_ROM_PTR(&pin_GPIO25) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "CAMERA_XCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAMERA_XCLK), MP_ROM_PTR(&pin_GPIO4) },"
+  }
+ ]
+}

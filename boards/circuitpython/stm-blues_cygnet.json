@@ -1,0 +1,170 @@
+{
+ "board": "Cygnet",
+ "aliases": [
+  "blues_cygnet"
+ ],
+ "mcu": "STM32L433CCT6",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/stm/boards/blues_cygnet/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA00",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA03",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_PA03) },"
+  },
+  {
+   "pin": "PB01",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PB01) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A5), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "VOLTAGE_MONITOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VOLTAGE_MONITOR), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PC13",
+   "function": "BUTTON_USR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_USR), MP_ROM_PTR(&pin_PC13) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PA08",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA08) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PB04) }, // ADC, PWM, DAC2 output also"
+  },
+  {
+   "pin": "PB07",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PB07) }, // PWM"
+  },
+  {
+   "pin": "PB06",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PB06) }, // PWM"
+  },
+  {
+   "pin": "PB08",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SS), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PB05",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PB05) },"
+  },
+  {
+   "pin": "PA09",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PA09) }, // ADC, PWM"
+  },
+  {
+   "pin": "PA10",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PA10) }, // PWM"
+  }
+ ]
+}

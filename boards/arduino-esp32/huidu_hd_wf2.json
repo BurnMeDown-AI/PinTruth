@@ -1,0 +1,263 @@
+{
+ "board": "huidu_hd_wf2",
+ "aliases": [
+  "huidu_hd_wf2"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/huidu_hd_wf2/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO2",
+   "function": "WF2_X1_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_R1_PIN 2"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "WF2_X1_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_R2_PIN 3"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "WF2_X1_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_G1_PIN 6"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "WF2_X1_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_G2_PIN 7"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "WF2_X1_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_B1_PIN 10"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "WF2_X1_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_B2_PIN 11"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "WF2_X1_E_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X1_E_PIN 21"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "WF2_X2_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_R1_PIN 4"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "WF2_X2_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_R2_PIN 5"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "WF2_X2_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_G1_PIN 8"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "WF2_X2_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_G2_PIN 9"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "WF2_X2_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_B1_PIN 12"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "WF2_X2_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_X2_B2_PIN 13"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "WF2_A_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_A_PIN 39"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "WF2_B_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_B_PIN 38"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "WF2_C_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_C_PIN 37"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "WF2_D_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_D_PIN 36"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "WF2_OE_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_OE_PIN 35"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "WF2_CLK_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_CLK_PIN 34"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "WF2_LAT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_LAT_PIN 33"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "WF2_LED_RUN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_LED_RUN_PIN 40 // Status LED on PCB"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "WF2_USB_DN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_USB_DN_PIN 19 // USB D-"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "WF2_USB_DP_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_USB_DP_PIN 20 // USB D+"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "WF2_PCB1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_PCB1_PIN 45 // open pad on PCB"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "WF2_PCB2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF2_PCB2_PIN 46 // open pad on PCB"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN WF2_LED_RUN_PIN",
+   "also": [
+    "#define WF2_LED_RUN_PIN 40 // Status LED on PCB"
+   ]
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 43;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 44;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = WF2_BM8563_I2C_SDA;",
+   "also": [
+    "#define WF2_BM8563_I2C_SDA 41 // RTC BM8563 I2C port"
+   ]
+  },
+  {
+   "pin": "GPIO42",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = WF2_BM8563_I2C_SCL;",
+   "also": [
+    "#define WF2_BM8563_I2C_SCL 42"
+   ]
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 11;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 12;"
+  }
+ ]
+}

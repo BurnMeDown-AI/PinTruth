@@ -1,0 +1,163 @@
+{
+ "board": "Waveshare ESP32-S3-Touch-LCD-2.1",
+ "aliases": [
+  "waveshare_esp32_s3_touch_lcd_2_1"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/waveshare_esp32_s3_touch_lcd_2_1/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO40",
+   "function": "de",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_de), MP_ROM_PTR(&pin_GPIO40) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "vsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_vsync), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "hsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_hsync), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "dclk",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_dclk), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "IO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "IO43",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO43), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "IO44",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO44), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "IO7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO7), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "IO15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IO15), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "TP_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TP_INT), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "BAT_ADC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BAT_ADC), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SD_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_CLK), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SD_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_MOSI), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "SD_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_MISO), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "LCD_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_BACKLIGHT), MP_ROM_PTR(&pin_GPIO6) },"
+  }
+ ]
+}

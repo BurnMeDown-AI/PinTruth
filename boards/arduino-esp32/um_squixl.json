@@ -1,0 +1,72 @@
+{
+ "board": "um_squixl",
+ "aliases": [
+  "um_squixl"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/um_squixl/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 2;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 42;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 46;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 41;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "SDO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDO = 46;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SDI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDI = 41;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 45;"
+  }
+ ]
+}

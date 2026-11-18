@@ -1,0 +1,338 @@
+{
+ "board": "Adafruit Pybadge",
+ "aliases": [
+  "pybadge"
+ ],
+ "mcu": "samd51j19",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/pybadge/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA02",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A5), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PB01",
+   "function": "A6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A6), MP_ROM_PTR(&pin_PB01) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "A7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A7), MP_ROM_PTR(&pin_PB04) },"
+  },
+  {
+   "pin": "PB03",
+   "function": "A8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A8), MP_ROM_PTR(&pin_PB03) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "A9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A9), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PB17",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_PB17) },"
+  },
+  {
+   "pin": "PB16",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_PB16) },"
+  },
+  {
+   "pin": "PB03",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D2), MP_ROM_PTR(&pin_PB03) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D3), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D4), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D7), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_PA15) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA21",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PB17",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PB17) },"
+  },
+  {
+   "pin": "PB16",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PB16) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PB22",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PB22) },"
+  },
+  {
+   "pin": "PB23",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PB23) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_PA15) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "LIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LIGHT), MP_ROM_PTR(&pin_PB04) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "ACCELEROMETER_INTERRUPT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ACCELEROMETER_INTERRUPT), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "SPEAKER",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SPEAKER), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA27",
+   "function": "SPEAKER_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SPEAKER_ENABLE), MP_ROM_PTR(&pin_PA27) },"
+  },
+  {
+   "pin": "PB00",
+   "function": "BUTTON_LATCH",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BUTTON_LATCH), MP_ROM_PTR(&pin_PB00) },"
+  },
+  {
+   "pin": "PB30",
+   "function": "BUTTON_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BUTTON_OUT), MP_ROM_PTR(&pin_PB30) },"
+  },
+  {
+   "pin": "PB31",
+   "function": "BUTTON_CLOCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BUTTON_CLOCK), MP_ROM_PTR(&pin_PB31) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "TFT_LITE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TFT_LITE), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "TFT_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TFT_MOSI), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "TFT_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TFT_SCK), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PA00",
+   "function": "TFT_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TFT_RST), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PB07",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_CS), MP_ROM_PTR(&pin_PB07) },"
+  },
+  {
+   "pin": "PB05",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_DC), MP_ROM_PTR(&pin_PB05) },"
+  }
+ ]
+}

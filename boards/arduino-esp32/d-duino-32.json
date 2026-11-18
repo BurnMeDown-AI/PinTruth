@@ -1,0 +1,302 @@
+{
+ "board": "d-duino-32",
+ "aliases": [
+  "d-duino-32"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/d-duino-32/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 5;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 4;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 15;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 12;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 14;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 36;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 39;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "A10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A10 = 4;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "A11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A11 = 0;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A12 = 2;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "A13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A13 = 15;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "A14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A14 = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "A15",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A15 = 12;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "A16",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A16 = 14;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "A18",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A18 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "A19",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A19 = 26;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "T0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T0 = 4;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "T1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T1 = 0;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "T2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T2 = 2;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "T3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T3 = 15;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "T4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T4 = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "T5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T5 = 12;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "T6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T6 = 14;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "DAC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC1 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "DAC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC2 = 26;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D1 = 5;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D2 = 4;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D3 = 0;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D4 = 2;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D5 = 14;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D6 = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D7 = 13;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D8 = 15;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D9 = 3;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D10 = 1;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "OLED_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t OLED_SCL = SCL;",
+   "also": [
+    "static const uint8_t SCL = 4;"
+   ]
+  },
+  {
+   "pin": "GPIO5",
+   "function": "OLED_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t OLED_SDA = SDA;",
+   "also": [
+    "static const uint8_t SDA = 5;"
+   ]
+  }
+ ]
+}

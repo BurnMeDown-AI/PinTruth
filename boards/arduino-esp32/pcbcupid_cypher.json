@@ -1,0 +1,188 @@
+{
+ "board": "pcbcupid_cypher",
+ "aliases": [
+  "pcbcupid_cypher"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/pcbcupid_cypher/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN = 1;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN LED_BUILTIN",
+   "also": [
+    "static const uint8_t LED_BUILTIN = 1;"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "LED_BUILTIN_R",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN_R = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "LED_BUILTIN_G",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN_G = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "LED_BUILTIN_B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN_B = 3;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 22;",
+   "invalid": "GPIO22 does not exist on esp32s3 (ESP-IDF SOC_GPIO_VALID_GPIO_MASK)"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 5;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 16;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 12;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_DC = 15;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "TFT_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_RST = 14;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 3;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "SDMMC_CMD",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_CMD = 35;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SDMMC_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_CLK = 36;"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "SDMMC_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_D0 = 37;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "SDMMC_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_D1 = 38;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SDMMC_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_D2 = 39;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "SDMMC_D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDMMC_D3 = 40;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D0 = 0;"
+  }
+ ]
+}

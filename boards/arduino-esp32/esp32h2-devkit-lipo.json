@@ -1,0 +1,121 @@
+{
+ "board": "esp32h2-devkit-lipo",
+ "aliases": [
+  "esp32h2-devkit-lipo"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/esp32h2-devkit-lipo/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO8",
+   "function": "PIN_RGB_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_RGB_LED 8"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "KEY_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t KEY_BUILTIN = 9;"
+  },
+  {
+   "pin": "GPIO24",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 24;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 23;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 12;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 22;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 0;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 25;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 11;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 10;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 5;"
+  }
+ ]
+}

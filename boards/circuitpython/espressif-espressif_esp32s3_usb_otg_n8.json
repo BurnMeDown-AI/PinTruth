@@ -1,0 +1,226 @@
+{
+ "board": "ESP32-S3-USB-OTG-N8",
+ "aliases": [
+  "espressif_esp32s3_usb_otg_n8"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/espressif_esp32s3_usb_otg_n8/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO18",
+   "function": "USB_SEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USB_SEL), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LED_GREEN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_GREEN), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "LED_YELLOW",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_YELLOW), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON_OK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_OK), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "BUTTON_UP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_UP), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "BUTTON_DW",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_DW), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "BUTTON_DOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_DOWN), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "BUTTON_MENU",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_MENU), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "LCD_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_RST), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "LCD_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_EN), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "LCD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_DC), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "LCD_SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_SCLK), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "LCD_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_SDA), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "LCD_BL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_BL), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SD_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_SCK), MP_ROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "SD_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_D0), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "SD_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_D1), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "SD_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_D2), MP_ROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "SD_D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SD_D3), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "HOST_VOL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HOST_VOL), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "BAT_VOL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BAT_VOL), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "BATTERY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BATTERY), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "VOLTAGE_MONITOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VOLTAGE_MONITOR), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "LIMIT_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LIMIT_EN), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "OVER_CURRENT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_OVER_CURRENT), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "DEV_VBUS_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DEV_VBUS_EN), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "BOOST_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOST_EN), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO44) },"
+  }
+ ]
+}

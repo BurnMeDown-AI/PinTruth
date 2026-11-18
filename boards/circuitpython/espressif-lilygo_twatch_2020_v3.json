@@ -1,0 +1,163 @@
+{
+ "board": "Lilygo T-watch 2020 V3",
+ "aliases": [
+  "lilygo_twatch_2020_v3"
+ ],
+ "mcu": "ESP32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/lilygo_twatch_2020_v3/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO4",
+   "function": "VIBRATE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VIBRATE), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "I2S_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SCK), MP_ROM_PTR(&pin_GPIO26) },"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_GPIO25) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "I2S_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_OUT), MP_ROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "PDM_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PDM_CLK), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "PDM_DATA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PDM_DATA), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "IR_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IR_LED), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO22) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "BMA423_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BMA423_INT), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "PCF8563_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PCF8563_INT), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "AXP202_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AXP202_INT), MP_ROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "TOUCH_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SCL), MP_ROM_PTR(&pin_GPIO32) },"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "TOUCH_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SDA), MP_ROM_PTR(&pin_GPIO23) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "TOUCH_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_RST), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "TOUCH_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_INT), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "LCD_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_CLK), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "LCD_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_MOSI), MP_ROM_PTR(&pin_GPIO19) },"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "LCD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_DC), MP_ROM_PTR(&pin_GPIO27) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "LCD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_CS), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LCD_BRIGHTNESS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_BRIGHTNESS), MP_ROM_PTR(&pin_GPIO15) },"
+  }
+ ]
+}

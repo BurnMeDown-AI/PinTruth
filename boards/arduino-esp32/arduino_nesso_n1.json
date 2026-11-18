@@ -1,0 +1,149 @@
+{
+ "board": "arduino_nesso_n1",
+ "aliases": [
+  "arduino_nesso_n1"
+ ],
+ "mcu": "esp32c6",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/arduino_nesso_n1/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO10",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 10;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 8;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 22;"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 20;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 23;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D1 = 7;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D2 = 2;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D3 = 6;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "IR_TX_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IR_TX_PIN = 9;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "BEEP_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BEEP_PIN = 11;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "GROVE_IO_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GROVE_IO_0 = 5;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "GROVE_IO_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GROVE_IO_1 = 4;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LORA_IRQ",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LORA_IRQ = 15;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "LORA_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LORA_CS = 23;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "LORA_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LORA_BUSY = 19;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "SYS_IRQ",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SYS_IRQ = 3;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "LCD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_CS = 17;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "LCD_RS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_RS = 16;"
+  }
+ ]
+}

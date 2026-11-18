@@ -1,0 +1,100 @@
+{
+ "board": "Electronic Cats CatWAN USBStick",
+ "aliases": [
+  "catwan_usbstick"
+ ],
+ "mcu": "samd21e18",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/catwan_usbstick/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA30",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_PA30) },"
+  },
+  {
+   "pin": "PA31",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_PA31) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "RFM9X_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_D0), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "RFM9X_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_D1), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA27",
+   "function": "RFM9X_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_D2), MP_ROM_PTR(&pin_PA27) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "RFM9X_D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_D5), MP_ROM_PTR(&pin_PA15) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "RFM9X_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_RST), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "RFM9X_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RFM9X_CS), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA22) },"
+  }
+ ]
+}

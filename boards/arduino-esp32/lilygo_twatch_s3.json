@@ -1,0 +1,72 @@
+{
+ "board": "lilygo_twatch_s3",
+ "aliases": [
+  "lilygo_twatch_s3"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/lilygo_twatch_s3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO42",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 42;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 41;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 11;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 5;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 1;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 4;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 3;"
+  }
+ ]
+}

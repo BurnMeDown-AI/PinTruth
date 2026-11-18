@@ -1,0 +1,611 @@
+{
+ "board": "SparkFun MicroMod RP2040 Processor",
+ "aliases": [
+  "sparkfun_micromod_rp2040"
+ ],
+ "mcu": "rp2040",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/raspberrypi/boards/sparkfun_micromod_rp2040/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO25",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_GPIO25) }, // MicroMod LED (GPIO25)"
+  },
+  {
+   "pin": "GPIO29",
+   "function": "BATT_VIN3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BATT_VIN3), MP_ROM_PTR(&pin_GPIO29) }, // MicroMod BATT_VIN/3 (GPIO29)"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "UART_TX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_TX1), MP_ROM_PTR(&pin_GPIO0) }, // MicroMod UART_TX1 | CircuitPython TX (GPIO0)"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "UART_RX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_RX1), MP_ROM_PTR(&pin_GPIO1) }, // MicroMod UART_RX1 | CircuitPython RX (GPIO1)"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "UART_RTS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_RTS1), MP_ROM_PTR(&pin_GPIO3) }, // MicroMod RTS1 (GPIO3)"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "UART_CTS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_CTS1), MP_ROM_PTR(&pin_GPIO2) }, // MicroMod CTS1 (GPIO2)"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO0) }, // CircuitPython TX | MicroMod UART_TX1 (GPIO0)"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO1) }, // CircuitPython RX | MicroMod UART_RX1 (GPIO1)"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "UART_TX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_TX2), MP_ROM_PTR(&pin_GPIO8) }, // MicroMod UART_TX2 (GPIO8)"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "UART_RX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART_RX2), MP_ROM_PTR(&pin_GPIO9) }, // MicroMod UART_RX2 (GPIO9)"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "I2C_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C_SDA), MP_ROM_PTR(&pin_GPIO4) }, // MicroMod I2C_SDA | CircuitPython SDA (GPIO4)"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "I2C_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C_SCL), MP_ROM_PTR(&pin_GPIO5) }, // MicroMod I2C_SCL | CircuitPython SCL (GPIO5)"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO4) }, // CircuitPython SDA | MicroMod I2C_SDA (GPIO4)"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO5) }, // CircuitPython SCL | MicroMod I2C_SCL (GPIO5)"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "I2C_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C_INT), MP_ROM_PTR(&pin_GPIO8) }, // MicroMod I2C_INT (GPIO8)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "SPI_CIPO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_CIPO), MP_ROM_PTR(&pin_GPIO20) }, // MicroMod SPI_CIPO | CircuitPython CIPO (GPIO20)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "SPI_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MISO), MP_ROM_PTR(&pin_GPIO20) }, // MicroMod SPI_MISO | CircuitPython MISO (GPIO20)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "SPI_COPI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_COPI), MP_ROM_PTR(&pin_GPIO23) }, // MicroMod SPI_COPI | CircuitPython COPI | LED_DAT (GPIO23)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "SPI_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MOSI), MP_ROM_PTR(&pin_GPIO23) }, // MicroMod SPI_MOSI | CircuitPython MOSI (GPIO23)"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SPI_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_SCK), MP_ROM_PTR(&pin_GPIO22) }, // MicroMod SPI_SCK | CircuitPython SCK | LED_CLK (GPIO22)"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SPI_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_CS), MP_ROM_PTR(&pin_GPIO21) }, // MicroMod SPI_CS | CircuitPython CS (GPIO21)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "CIPO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CIPO), MP_ROM_PTR(&pin_GPIO20) }, // CircuitPython CIPO | MicroMod SPI_CIPO (GPIO20)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_GPIO20) }, // CircuitPython MISO | MicroMod SPI_MISO (GPIO20)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "COPI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_COPI), MP_ROM_PTR(&pin_GPIO23) }, // CircuitPython COPI | MicroMod SPI_COPI | LED_DAT (GPIO23)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_GPIO23) }, // CircuitPython MOSI | MicroMod SPI_MOSI (GPIO23)"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_GPIO22) }, // CircuitPython SCK | MicroMod SPI_SCK | LED_CLK (GPIO22)"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CS), MP_ROM_PTR(&pin_GPIO21) }, // CircuitPython CS | MicroMod SPI_CS (GPIO21)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "LED_DAT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_DAT), MP_ROM_PTR(&pin_GPIO23) }, // MicroMod LED_DAT | SPI_COPI"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "LED_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_CLK), MP_ROM_PTR(&pin_GPIO22) }, // MicroMod LED_CLK | SPI_SCK"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SDIO_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_CLK), MP_ROM_PTR(&pin_GPIO14) }, // MicroMod SDIO_SCK | SPI_SCK1 (GPIO14)"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SDIO_CMD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_CMD), MP_ROM_PTR(&pin_GPIO15) }, // MicroMod SDIO_CMD | SPI_COPI1 (GPIO15)"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SDIO_DATA0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_DATA0), MP_ROM_PTR(&pin_GPIO12) }, // MicroMod SDIO_DATA0 | SPI_CIPO1 (GPIO12)"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SDIO_DATA1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_DATA1), MP_ROM_PTR(&pin_GPIO11) }, // MicroMod SDIO_DATA1 (GPIO11)"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SDIO_DATA2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_DATA2), MP_ROM_PTR(&pin_GPIO10) }, // MicroMod SDIO_DATA2 (GPIO10)"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "SDIO_DATA3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_DATA3), MP_ROM_PTR(&pin_GPIO9) }, // MicroMod SDIO_DATA3 | SPI_CS1 (GPIO9)"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SPI_CIPO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_CIPO1), MP_ROM_PTR(&pin_GPIO12) }, // MicroMod SPI_CIPO1 | SDIO_DATA0 (GPIO12)"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SPI_MISO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MISO1), MP_ROM_PTR(&pin_GPIO12) }, // MicroMod SPI_MISO1 (GPIO12)"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SPI_COPI1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_COPI1), MP_ROM_PTR(&pin_GPIO15) }, // MicroMod SPI_COPI1 | SDIO_CMD (GPIO15)"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SPI_MOSI1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_MOSI1), MP_ROM_PTR(&pin_GPIO15) }, // MicroMod SPI_MOSI1 (GPIO15)"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SPI_SCK1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_SCK1), MP_ROM_PTR(&pin_GPIO14) }, // MicroMod SPI_SCK1 | SDIO_SCK (GPIO14)"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "SPI_CS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI_CS1), MP_ROM_PTR(&pin_GPIO9) }, // MicroMod SPI_CS1 | SDIO_DATA3 (GPIO9)"
+  },
+  {
+   "pin": "GPIO24",
+   "function": "AUD_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUD_MCLK), MP_ROM_PTR(&pin_GPIO24) }, // MicroMod AUD_MCLK (GPIO24)"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "AUD_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUD_OUT), MP_ROM_PTR(&pin_GPIO10) }, // MicroMod AUD_OUT | I2S_OUT | PCM_OUT | CAM_MCLK (GPIO10)"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "AUD_IN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUD_IN), MP_ROM_PTR(&pin_GPIO11) }, // MicroMod AUD_IN | I2S_IN | PCM_IN | CAM_PCLK (GPIO11)"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "AUD_LRCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUD_LRCLK), MP_ROM_PTR(&pin_GPIO2) }, // MicroMod AUD_LRCLK | I2S_WS | PCM_SYNC | PDM_DATA (GPIO2)"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "AUD_BCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUD_BCLK), MP_ROM_PTR(&pin_GPIO3) }, // MicroMod AUD_BCLK | I2S_SCK | PCM_CLK | PDM_CLK (GPIO3)"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "I2S_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_OUT), MP_ROM_PTR(&pin_GPIO10) }, // MicroMod I2S_OUT | AUD_OUT | PCM_OUT | CAM_MCLK (GPIO10)"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "I2S_IN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_IN), MP_ROM_PTR(&pin_GPIO11) }, // MicroMod I2S_IN | AUD_IN | PCM_IN | CAM_PCLK (GPIO11)"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_GPIO2) }, // MicroMod I2S_WS | AUD_LRCLK | PCM_SYNC | PDM_DATA (GPIO2)"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "I2S_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_SCK), MP_ROM_PTR(&pin_GPIO3) }, // MicroMod I2S_SCK | AUD_BCLK | PCM_CLK | PDM_CLK (GPIO3)"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "PCM_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PCM_OUT), MP_ROM_PTR(&pin_GPIO10) }, // MicroMod PCM_OUT | AUD_OUT | I2S_OUT | CAM_MCLK (GPIO10)"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "PCM_IN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PCM_IN), MP_ROM_PTR(&pin_GPIO11) }, // MicroMod PCM_IN | AUD_IN | I2S_IN | CAM_PCLK (GPIO11)"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "PCM_SYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PCM_SYNC), MP_ROM_PTR(&pin_GPIO2) }, // MicroMod PCM_SYNC | AUD_LRCLK | I2S_WS | PDM_DATA (GPIO2)"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "PCM_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PCM_CLK), MP_ROM_PTR(&pin_GPIO3) }, // MicroMod PCM_CLK | AUD_BCLK | I2S_SCK | PDM_CLK (GPIO3)"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "PDM_DATA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PDM_DATA), MP_ROM_PTR(&pin_GPIO2) }, // MicroMod PDM_DATA | AUD_LRCLK | I2S_WS | PCM_SYNC (GPIO2)"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "PDM_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PDM_CLK), MP_ROM_PTR(&pin_GPIO3) }, // MicroMod PDM_CLK | AUD_BCLK | I2S_SCK | PCM_CLK (GPIO3)"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_GPIO26) }, // MicroMod A0 (GPIO26)"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_GPIO27) }, // MicroMod A1 (GPIO27)"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "PWM0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PWM0), MP_ROM_PTR(&pin_GPIO13) }, // MicroMod PWM0 (GPIO13)"
+  },
+  {
+   "pin": "GPIO24",
+   "function": "PWM1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PWM1), MP_ROM_PTR(&pin_GPIO24) }, // MicroMod PWM1 (GPIO24)"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_GPIO6) }, // MicroMod D0 (GPIO6)"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_GPIO7) }, // MicroMod D1 | CAM_TRIG (GPIO7)"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "G0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G0), MP_ROM_PTR(&pin_GPIO16) }, // MicroMod G0 | BUS0 (GPIO16)"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "G1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G1), MP_ROM_PTR(&pin_GPIO17) }, // MicroMod G1 | BUS1 (GPIO17)"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "G2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G2), MP_ROM_PTR(&pin_GPIO18) }, // MicroMod G2 | BUS2 (GPIO18)"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "G3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G3), MP_ROM_PTR(&pin_GPIO19) }, // MicroMod G3 | BUS3 (GPIO19)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "G4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G4), MP_ROM_PTR(&pin_GPIO20) }, // MicroMod G4 | BUS4 (GPIO20)"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "G5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G5), MP_ROM_PTR(&pin_GPIO21) }, // MicroMod G5 | BUS5 (GPIO21)"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "G6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G6), MP_ROM_PTR(&pin_GPIO22) }, // MicroMod G6 | BUS6 (GPIO22)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "G7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G7), MP_ROM_PTR(&pin_GPIO23) }, // MicroMod G7 | BUS7 (GPIO23)"
+  },
+  {
+   "pin": "GPIO28",
+   "function": "G9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G9), MP_ROM_PTR(&pin_GPIO28) }, // MicroMod G9 | ADC_D- | CAM_HSYNC (GPIO28)"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "G10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_G10), MP_ROM_PTR(&pin_GPIO25) }, // MicroMod G10 | ADC_D+ | CAM_VSYNC (GPIO25)"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "BUS0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS0), MP_ROM_PTR(&pin_GPIO16) }, // MicroMod BUS0 | G0 (GPIO16)"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "BUS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS1), MP_ROM_PTR(&pin_GPIO17) }, // MicroMod BUS1 | G1 (GPIO17)"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "BUS2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS2), MP_ROM_PTR(&pin_GPIO18) }, // MicroMod BUS2 | G2 (GPIO18)"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "BUS3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS3), MP_ROM_PTR(&pin_GPIO19) }, // MicroMod BUS3 | G3 (GPIO19)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "BUS4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS4), MP_ROM_PTR(&pin_GPIO20) }, // MicroMod BUS4 | G4 (GPIO20)"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "BUS5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS5), MP_ROM_PTR(&pin_GPIO21) }, // MicroMod BUS5 | G5 (GPIO21)"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "BUS6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS6), MP_ROM_PTR(&pin_GPIO22) }, // MicroMod BUS6 | G6 (GPIO22)"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "BUS7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUS7), MP_ROM_PTR(&pin_GPIO23) }, // MicroMod BUS7 | G7 (GPIO23)"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "CAM_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM_MCLK), MP_ROM_PTR(&pin_GPIO10) }, // MicroMod CAM_MCLK | AUD_OUT | I2S_OUT | PCM_OUT (GPIO10)"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "CAM_PCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM_PCLK), MP_ROM_PTR(&pin_GPIO11) }, // MicroMod CAM_PCLK | AUD_IN | I2S_IN | PCM_IN (GPIO11)"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "CAM_TRIG",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM_TRIG), MP_ROM_PTR(&pin_GPIO7) }, // MicroMod CAM_TRIG | D1 (GPIO7)"
+  },
+  {
+   "pin": "GPIO28",
+   "function": "CAM_HSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM_HSYNC), MP_ROM_PTR(&pin_GPIO28) }, // MicroMod CAM_HSYNC | ADC_D- | G9 (GPIO28)"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "CAM_VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAM_VSYNC), MP_ROM_PTR(&pin_GPIO25) }, // MicroMod CAM_VSYNC | ADC_D+ | G10 (GPIO25)"
+  }
+ ]
+}

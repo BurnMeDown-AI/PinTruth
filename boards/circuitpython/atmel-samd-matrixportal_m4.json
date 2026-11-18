@@ -1,0 +1,310 @@
+{
+ "board": "Adafruit Matrix Portal M4",
+ "aliases": [
+  "matrixportal_m4"
+ ],
+ "mcu": "samd51j19",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/matrixportal_m4/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PB06",
+   "function": "clock_pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_clock_pin), MP_ROM_PTR(&pin_PB06) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "latch_pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_latch_pin), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "output_enable_pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_output_enable_pin), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA00",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PB17",
+   "function": "ESP_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_CS), MP_ROM_PTR(&pin_PB17) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "ESP_GPIO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_GPIO0), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "ESP_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_BUSY), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA21",
+   "function": "ESP_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_RESET), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "ESP_RTS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_RTS), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "ESP_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_TX), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "ESP_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ESP_RX), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PB30",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PB30) },"
+  },
+  {
+   "pin": "PB31",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PB31) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PB00",
+   "function": "MTX_R1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_R1), MP_ROM_PTR(&pin_PB00) },"
+  },
+  {
+   "pin": "PB01",
+   "function": "MTX_G1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_G1), MP_ROM_PTR(&pin_PB01) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "MTX_B1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_B1), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PB03",
+   "function": "MTX_R2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_R2), MP_ROM_PTR(&pin_PB03) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "MTX_G2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_G2), MP_ROM_PTR(&pin_PB04) },"
+  },
+  {
+   "pin": "PB05",
+   "function": "MTX_B2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_B2), MP_ROM_PTR(&pin_PB05) },"
+  },
+  {
+   "pin": "PB07",
+   "function": "MTX_ADDRA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_ADDRA), MP_ROM_PTR(&pin_PB07) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "MTX_ADDRB",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_ADDRB), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "MTX_ADDRC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_ADDRC), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "MTX_ADDRD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_ADDRD), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "MTX_ADDRE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_ADDRE), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB06",
+   "function": "MTX_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_CLK), MP_ROM_PTR(&pin_PB06) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "MTX_LAT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_LAT), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "MTX_OE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MTX_OE), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PA27",
+   "function": "ACCELEROMETER_INTERRUPT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACCELEROMETER_INTERRUPT), MP_ROM_PTR(&pin_PA27) },"
+  },
+  {
+   "pin": "PB22",
+   "function": "BUTTON_UP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BUTTON_UP), MP_ROM_PTR(&pin_PB22) },"
+  },
+  {
+   "pin": "PB23",
+   "function": "BUTTON_DOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BUTTON_DOWN), MP_ROM_PTR(&pin_PB23) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "L",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_L), MP_ROM_PTR(&pin_PA14) },"
+  }
+ ]
+}

@@ -1,0 +1,727 @@
+{
+ "board": "iMX RT 1060 EVKB",
+ "aliases": [
+  "imxrt1060_evkb"
+ ],
+ "mcu": "IMXRT1062DVJ6A",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/mimxrt10xx/boards/imxrt1060_evkb/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO_AD_B1_07",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_GPIO_AD_B1_07) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_07",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO_AD_B1_07) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_06",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_GPIO_AD_B1_06) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_06",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO_AD_B1_06) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_11",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D2), MP_ROM_PTR(&pin_GPIO_AD_B0_11) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_08",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D3), MP_ROM_PTR(&pin_GPIO_AD_B1_08) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_09",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D4), MP_ROM_PTR(&pin_GPIO_AD_B0_09) }, // Connected to audio codec"
+  },
+  {
+   "pin": "GPIO_AD_B0_10",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_GPIO_AD_B0_10) }, // Connected to audio codec"
+  },
+  {
+   "pin": "GPIO_AD_B1_02",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_GPIO_AD_B1_02) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_03",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D7), MP_ROM_PTR(&pin_GPIO_AD_B1_03) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_03",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_GPIO_AD_B0_03) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_02",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_GPIO_AD_B0_02) }, // Connected to audio codec"
+  },
+  {
+   "pin": "GPIO_SD_B0_01",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_GPIO_SD_B0_01) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_02",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_GPIO_SD_B0_02) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_03",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_GPIO_SD_B0_03) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_00",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_GPIO_SD_B0_00) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_01",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D14), MP_ROM_PTR(&pin_GPIO_AD_B1_01) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_01",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO_AD_B1_01) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_00",
+   "function": "D15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D15), MP_ROM_PTR(&pin_GPIO_AD_B1_00) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_00",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO_AD_B1_00) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_10",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_GPIO_AD_B1_10) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_11",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_GPIO_AD_B1_11) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_04",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_GPIO_AD_B1_04) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_05",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_GPIO_AD_B1_05) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_01",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_GPIO_AD_B1_01) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_00",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A5), MP_ROM_PTR(&pin_GPIO_AD_B1_00) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_08",
+   "function": "USER_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_USER_LED), MP_ROM_PTR(&pin_GPIO_AD_B0_08) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_08",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_GPIO_AD_B0_08) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_06",
+   "function": "CSI_VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_VSYNC), MP_ROM_PTR(&pin_GPIO_AD_B1_06) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_02",
+   "function": "CSI_PWDN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_PWDN), MP_ROM_PTR(&pin_GPIO_AD_B1_02) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_07",
+   "function": "CSI_HSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_HSYNC), MP_ROM_PTR(&pin_GPIO_AD_B1_07) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_08",
+   "function": "CSI_D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D9), MP_ROM_PTR(&pin_GPIO_AD_B1_08) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_05",
+   "function": "CSI_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_MCLK), MP_ROM_PTR(&pin_GPIO_AD_B1_05) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_09",
+   "function": "CSI_D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D8), MP_ROM_PTR(&pin_GPIO_AD_B1_09) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_10",
+   "function": "CSI_D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D7), MP_ROM_PTR(&pin_GPIO_AD_B1_10) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_04",
+   "function": "CSI_PIXCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_PIXCLK), MP_ROM_PTR(&pin_GPIO_AD_B1_04) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_11",
+   "function": "CSI_D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D6), MP_ROM_PTR(&pin_GPIO_AD_B1_11) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_15",
+   "function": "CSI_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D2), MP_ROM_PTR(&pin_GPIO_AD_B1_15) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_12",
+   "function": "CSI_D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D5), MP_ROM_PTR(&pin_GPIO_AD_B1_12) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_14",
+   "function": "CSI_D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D3), MP_ROM_PTR(&pin_GPIO_AD_B1_14) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_13",
+   "function": "CSI_D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CSI_D4), MP_ROM_PTR(&pin_GPIO_AD_B1_13) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_01",
+   "function": "SD_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_CLK), MP_ROM_PTR(&pin_GPIO_SD_B0_01) },"
+  },
+  {
+   "pin": "GPIO_B1_12",
+   "function": "SD_SW",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_SW), MP_ROM_PTR(&pin_GPIO_B1_12) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_00",
+   "function": "SD_CMD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_CMD), MP_ROM_PTR(&pin_GPIO_SD_B0_00) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_02",
+   "function": "SD_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_D0), MP_ROM_PTR(&pin_GPIO_SD_B0_02) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_03",
+   "function": "SD_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_D1), MP_ROM_PTR(&pin_GPIO_SD_B0_03) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_04",
+   "function": "SD_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_D2), MP_ROM_PTR(&pin_GPIO_SD_B0_04) },"
+  },
+  {
+   "pin": "GPIO_SD_B0_05",
+   "function": "SD_D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_D3), MP_ROM_PTR(&pin_GPIO_SD_B0_05) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_03",
+   "function": "SD_PWREN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_PWREN), MP_ROM_PTR(&pin_GPIO_AD_B1_03) },"
+  },
+  {
+   "pin": "GPIO_B1_15",
+   "function": "LCD_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_BACKLIGHT), MP_ROM_PTR(&pin_GPIO_B1_15) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_02",
+   "function": "LCD_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_RST), MP_ROM_PTR(&pin_GPIO_AD_B0_02) },"
+  },
+  {
+   "pin": "GPIO_B0_01",
+   "function": "LCD_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_ENABLE), MP_ROM_PTR(&pin_GPIO_B0_01) },"
+  },
+  {
+   "pin": "GPIO_B0_03",
+   "function": "LCD_VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_VSYNC), MP_ROM_PTR(&pin_GPIO_B0_03) },"
+  },
+  {
+   "pin": "GPIO_B0_02",
+   "function": "LCD_HSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_HSYNC), MP_ROM_PTR(&pin_GPIO_B0_02) },"
+  },
+  {
+   "pin": "GPIO_B0_00",
+   "function": "LCD_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_CLK), MP_ROM_PTR(&pin_GPIO_B0_00) },"
+  },
+  {
+   "pin": "GPIO_B0_04",
+   "function": "LCD_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D0), MP_ROM_PTR(&pin_GPIO_B0_04) },"
+  },
+  {
+   "pin": "GPIO_B0_05",
+   "function": "LCD_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D1), MP_ROM_PTR(&pin_GPIO_B0_05) },"
+  },
+  {
+   "pin": "GPIO_B0_06",
+   "function": "LCD_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D2), MP_ROM_PTR(&pin_GPIO_B0_06) },"
+  },
+  {
+   "pin": "GPIO_B0_07",
+   "function": "LCD_D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D3), MP_ROM_PTR(&pin_GPIO_B0_07) },"
+  },
+  {
+   "pin": "GPIO_B0_08",
+   "function": "LCD_D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D4), MP_ROM_PTR(&pin_GPIO_B0_08) },"
+  },
+  {
+   "pin": "GPIO_B0_09",
+   "function": "LCD_D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D5), MP_ROM_PTR(&pin_GPIO_B0_09) },"
+  },
+  {
+   "pin": "GPIO_B0_10",
+   "function": "LCD_D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D6), MP_ROM_PTR(&pin_GPIO_B0_10) },"
+  },
+  {
+   "pin": "GPIO_B0_11",
+   "function": "LCD_D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D7), MP_ROM_PTR(&pin_GPIO_B0_11) },"
+  },
+  {
+   "pin": "GPIO_B0_12",
+   "function": "LCD_D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D8), MP_ROM_PTR(&pin_GPIO_B0_12) },"
+  },
+  {
+   "pin": "GPIO_B0_13",
+   "function": "LCD_D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D9), MP_ROM_PTR(&pin_GPIO_B0_13) },"
+  },
+  {
+   "pin": "GPIO_B0_14",
+   "function": "LCD_D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D10), MP_ROM_PTR(&pin_GPIO_B0_14) },"
+  },
+  {
+   "pin": "GPIO_B0_15",
+   "function": "LCD_D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D11), MP_ROM_PTR(&pin_GPIO_B0_15) },"
+  },
+  {
+   "pin": "GPIO_B1_00",
+   "function": "LCD_D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D12), MP_ROM_PTR(&pin_GPIO_B1_00) },"
+  },
+  {
+   "pin": "GPIO_B1_01",
+   "function": "LCD_D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D13), MP_ROM_PTR(&pin_GPIO_B1_01) },"
+  },
+  {
+   "pin": "GPIO_B1_02",
+   "function": "LCD_D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D14), MP_ROM_PTR(&pin_GPIO_B1_02) },"
+  },
+  {
+   "pin": "GPIO_B1_03",
+   "function": "LCD_D15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_D15), MP_ROM_PTR(&pin_GPIO_B1_03) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_11",
+   "function": "LCD_TOUCH_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_TOUCH_INT), MP_ROM_PTR(&pin_GPIO_AD_B0_11) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_08",
+   "function": "AUDIO_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_INT), MP_ROM_PTR(&pin_GPIO_AD_B1_08) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_15",
+   "function": "AUDIO_SYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_SYNC), MP_ROM_PTR(&pin_GPIO_AD_B1_15) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_14",
+   "function": "AUDIO_BCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_BCLK), MP_ROM_PTR(&pin_GPIO_AD_B1_14) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_12",
+   "function": "AUDIO_RXD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_RXD), MP_ROM_PTR(&pin_GPIO_AD_B1_12) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_13",
+   "function": "AUDIO_TXD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_TXD), MP_ROM_PTR(&pin_GPIO_AD_B1_13) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_09",
+   "function": "AUDIO_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_MCLK), MP_ROM_PTR(&pin_GPIO_AD_B1_09) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_03",
+   "function": "SPDIF_IN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPDIF_IN), MP_ROM_PTR(&pin_GPIO_AD_B1_03) },"
+  },
+  {
+   "pin": "GPIO_AD_B1_02",
+   "function": "SPDIF_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPDIF_OUT), MP_ROM_PTR(&pin_GPIO_AD_B1_02) },"
+  },
+  {
+   "pin": "GPIO_EMC_41",
+   "function": "ETHERNET_MDIO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_MDIO), MP_ROM_PTR(&pin_GPIO_EMC_41) },"
+  },
+  {
+   "pin": "GPIO_EMC_40",
+   "function": "ETHERNET_MDC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_MDC), MP_ROM_PTR(&pin_GPIO_EMC_40) },"
+  },
+  {
+   "pin": "GPIO_B1_04",
+   "function": "ETHERNET_RXD0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_RXD0), MP_ROM_PTR(&pin_GPIO_B1_04) },"
+  },
+  {
+   "pin": "GPIO_B1_05",
+   "function": "ETHERNET_RXD1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_RXD1), MP_ROM_PTR(&pin_GPIO_B1_05) },"
+  },
+  {
+   "pin": "GPIO_B1_06",
+   "function": "ETHERNET_CRS_DV",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_CRS_DV), MP_ROM_PTR(&pin_GPIO_B1_06) },"
+  },
+  {
+   "pin": "GPIO_B1_07",
+   "function": "ETHERNET_TXD0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_TXD0), MP_ROM_PTR(&pin_GPIO_B1_07) },"
+  },
+  {
+   "pin": "GPIO_B1_08",
+   "function": "ETHERNET_TXD1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_TXD1), MP_ROM_PTR(&pin_GPIO_B1_08) },"
+  },
+  {
+   "pin": "GPIO_B1_09",
+   "function": "ETHERNET_TXEN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_TXEN), MP_ROM_PTR(&pin_GPIO_B1_09) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_10",
+   "function": "ETHERNET_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_INT), MP_ROM_PTR(&pin_GPIO_AD_B0_10) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_09",
+   "function": "ETHERNET_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_RST), MP_ROM_PTR(&pin_GPIO_AD_B0_09) },"
+  },
+  {
+   "pin": "GPIO_B1_10",
+   "function": "ETHERNET_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_CLK), MP_ROM_PTR(&pin_GPIO_B1_10) },"
+  },
+  {
+   "pin": "GPIO_B1_11",
+   "function": "ETHERNET_RXER",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ETHERNET_RXER), MP_ROM_PTR(&pin_GPIO_B1_11) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_12",
+   "function": "FREELINK_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_FREELINK_TX), MP_ROM_PTR(&pin_GPIO_AD_B0_12) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_13",
+   "function": "FREELINK_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_FREELINK_RX), MP_ROM_PTR(&pin_GPIO_AD_B0_13) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_14",
+   "function": "CAN_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAN_TX), MP_ROM_PTR(&pin_GPIO_AD_B0_14) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_15",
+   "function": "CAN_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAN_RX), MP_ROM_PTR(&pin_GPIO_AD_B0_15) },"
+  },
+  {
+   "pin": "GPIO_AD_B0_05",
+   "function": "CAN_STBY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CAN_STBY), MP_ROM_PTR(&pin_GPIO_AD_B0_05) },"
+  },
+  {
+   "pin": "USB_OTG1_DP",
+   "function": "USB_HOST_DP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USB_HOST_DP), MP_ROM_PTR(&pin_USB_OTG1_DP) },",
+   "condition": "CIRCUITPY_USB_HOST_INSTANCE == 0"
+  },
+  {
+   "pin": "USB_OTG1_DN",
+   "function": "USB_HOST_DM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USB_HOST_DM), MP_ROM_PTR(&pin_USB_OTG1_DN) },",
+   "condition": "CIRCUITPY_USB_HOST_INSTANCE == 0"
+  },
+  {
+   "pin": "USB_OTG2_DP",
+   "function": "USB_HOST_DP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USB_HOST_DP), MP_ROM_PTR(&pin_USB_OTG2_DP) },",
+   "condition": "CIRCUITPY_USB_HOST_INSTANCE == 1"
+  },
+  {
+   "pin": "USB_OTG2_DN",
+   "function": "USB_HOST_DM",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USB_HOST_DM), MP_ROM_PTR(&pin_USB_OTG2_DN) },",
+   "condition": "CIRCUITPY_USB_HOST_INSTANCE == 1"
+  }
+ ]
+}

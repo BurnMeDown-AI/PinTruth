@@ -1,0 +1,178 @@
+{
+ "board": "Sprite_v2b",
+ "aliases": [
+  "kicksat-sprite"
+ ],
+ "mcu": "samd51G19",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/kicksat-sprite/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA05",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA00",
+   "function": "radioCS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_radioCS), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "WAKE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_WAKE), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PB10",
+   "function": "SHDWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SHDWN), MP_ROM_PTR(&pin_PB10) },"
+  },
+  {
+   "pin": "PB11",
+   "function": "PWDWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PWDWN), MP_ROM_PTR(&pin_PB11) },"
+  },
+  {
+   "pin": "PA11",
+   "function": "TST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TST), MP_ROM_PTR(&pin_PA11) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "FSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_FSYNC), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "VCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VCLK), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "FSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_FSYNC), MP_ROM_PTR(&pin_PA15) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PA18",
+   "function": "MD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MD), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "MC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MC), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA08",
+   "function": "PA08",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA08), MP_ROM_PTR(&pin_PA08) },"
+  },
+  {
+   "pin": "PA10",
+   "function": "PA10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA10), MP_ROM_PTR(&pin_PA10) },"
+  },
+  {
+   "pin": "PA09",
+   "function": "PA09",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA09), MP_ROM_PTR(&pin_PA09) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "PA06",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA06), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "DAC0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DAC0), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PB03",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PB03) },"
+  }
+ ]
+}

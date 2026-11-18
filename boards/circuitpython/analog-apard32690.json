@@ -1,0 +1,800 @@
+{
+ "board": "APARD32690",
+ "aliases": [
+  "apard32690"
+ ],
+ "mcu": "max32690",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/analog/boards/apard32690/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_00",
+   "function": "P0_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_0), MP_ROM_PTR(&pin_P0_00) },"
+  },
+  {
+   "pin": "P0_01",
+   "function": "P0_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_1), MP_ROM_PTR(&pin_P0_01) },"
+  },
+  {
+   "pin": "P0_02",
+   "function": "P0_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_2), MP_ROM_PTR(&pin_P0_02) },"
+  },
+  {
+   "pin": "P0_03",
+   "function": "P0_3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_3), MP_ROM_PTR(&pin_P0_03) },"
+  },
+  {
+   "pin": "P0_04",
+   "function": "P0_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_4), MP_ROM_PTR(&pin_P0_04) },"
+  },
+  {
+   "pin": "P0_05",
+   "function": "P0_5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_5), MP_ROM_PTR(&pin_P0_05) },"
+  },
+  {
+   "pin": "P0_06",
+   "function": "P0_6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_6), MP_ROM_PTR(&pin_P0_06) },"
+  },
+  {
+   "pin": "P0_07",
+   "function": "P0_7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_7), MP_ROM_PTR(&pin_P0_07) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "P0_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_8), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P0_09",
+   "function": "P0_9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_9), MP_ROM_PTR(&pin_P0_09) },"
+  },
+  {
+   "pin": "P0_10",
+   "function": "P0_10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_10), MP_ROM_PTR(&pin_P0_10) },"
+  },
+  {
+   "pin": "P0_11",
+   "function": "P0_11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_11), MP_ROM_PTR(&pin_P0_11) },"
+  },
+  {
+   "pin": "P0_12",
+   "function": "P0_12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_12), MP_ROM_PTR(&pin_P0_12) },"
+  },
+  {
+   "pin": "P0_13",
+   "function": "P0_13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_13), MP_ROM_PTR(&pin_P0_13) },"
+  },
+  {
+   "pin": "P0_14",
+   "function": "P0_14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_14), MP_ROM_PTR(&pin_P0_14) },"
+  },
+  {
+   "pin": "P0_15",
+   "function": "P0_15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_15), MP_ROM_PTR(&pin_P0_15) },"
+  },
+  {
+   "pin": "P0_16",
+   "function": "P0_16",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_16), MP_ROM_PTR(&pin_P0_16) },"
+  },
+  {
+   "pin": "P0_17",
+   "function": "P0_17",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_17), MP_ROM_PTR(&pin_P0_17) },"
+  },
+  {
+   "pin": "P0_18",
+   "function": "P0_18",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_18), MP_ROM_PTR(&pin_P0_18) },"
+  },
+  {
+   "pin": "P0_19",
+   "function": "P0_19",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_19), MP_ROM_PTR(&pin_P0_19) },"
+  },
+  {
+   "pin": "P0_20",
+   "function": "P0_20",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_20), MP_ROM_PTR(&pin_P0_20) },"
+  },
+  {
+   "pin": "P0_21",
+   "function": "P0_21",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_21), MP_ROM_PTR(&pin_P0_21) },"
+  },
+  {
+   "pin": "P0_22",
+   "function": "P0_22",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_22), MP_ROM_PTR(&pin_P0_22) },"
+  },
+  {
+   "pin": "P0_23",
+   "function": "P0_23",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_23), MP_ROM_PTR(&pin_P0_23) },"
+  },
+  {
+   "pin": "P0_24",
+   "function": "P0_24",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_24), MP_ROM_PTR(&pin_P0_24) },"
+  },
+  {
+   "pin": "P0_25",
+   "function": "P0_25",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_25), MP_ROM_PTR(&pin_P0_25) },"
+  },
+  {
+   "pin": "P0_26",
+   "function": "P0_26",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_26), MP_ROM_PTR(&pin_P0_26) },"
+  },
+  {
+   "pin": "P0_27",
+   "function": "P0_27",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_27), MP_ROM_PTR(&pin_P0_27) },"
+  },
+  {
+   "pin": "P0_28",
+   "function": "P0_28",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_28), MP_ROM_PTR(&pin_P0_28) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "P0_29",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_29), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P0_30",
+   "function": "P0_30",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_30), MP_ROM_PTR(&pin_P0_30) },"
+  },
+  {
+   "pin": "P0_31",
+   "function": "P0_31",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_31), MP_ROM_PTR(&pin_P0_31) },"
+  },
+  {
+   "pin": "P1_00",
+   "function": "P1_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_0), MP_ROM_PTR(&pin_P1_00) },"
+  },
+  {
+   "pin": "P1_01",
+   "function": "P1_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_1), MP_ROM_PTR(&pin_P1_01) },"
+  },
+  {
+   "pin": "P1_02",
+   "function": "P1_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_2), MP_ROM_PTR(&pin_P1_02) },"
+  },
+  {
+   "pin": "P1_03",
+   "function": "P1_3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_3), MP_ROM_PTR(&pin_P1_03) },"
+  },
+  {
+   "pin": "P1_04",
+   "function": "P1_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_4), MP_ROM_PTR(&pin_P1_04) },"
+  },
+  {
+   "pin": "P1_05",
+   "function": "P1_5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_5), MP_ROM_PTR(&pin_P1_05) },"
+  },
+  {
+   "pin": "P1_06",
+   "function": "P1_6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_6), MP_ROM_PTR(&pin_P1_06) },"
+  },
+  {
+   "pin": "P1_07",
+   "function": "P1_7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_7), MP_ROM_PTR(&pin_P1_07) },"
+  },
+  {
+   "pin": "P1_08",
+   "function": "P1_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_8), MP_ROM_PTR(&pin_P1_08) },"
+  },
+  {
+   "pin": "P1_09",
+   "function": "P1_9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_9), MP_ROM_PTR(&pin_P1_09) },"
+  },
+  {
+   "pin": "P1_10",
+   "function": "P1_10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_10), MP_ROM_PTR(&pin_P1_10) },"
+  },
+  {
+   "pin": "P1_11",
+   "function": "P1_11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_11), MP_ROM_PTR(&pin_P1_11) },"
+  },
+  {
+   "pin": "P1_12",
+   "function": "P1_12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_12), MP_ROM_PTR(&pin_P1_12) },"
+  },
+  {
+   "pin": "P1_13",
+   "function": "P1_13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_13), MP_ROM_PTR(&pin_P1_13) },"
+  },
+  {
+   "pin": "P1_14",
+   "function": "P1_14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_14), MP_ROM_PTR(&pin_P1_14) },"
+  },
+  {
+   "pin": "P1_15",
+   "function": "P1_15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_15), MP_ROM_PTR(&pin_P1_15) },"
+  },
+  {
+   "pin": "P1_16",
+   "function": "P1_16",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_16), MP_ROM_PTR(&pin_P1_16) },"
+  },
+  {
+   "pin": "P1_17",
+   "function": "P1_17",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_17), MP_ROM_PTR(&pin_P1_17) },"
+  },
+  {
+   "pin": "P1_18",
+   "function": "P1_18",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_18), MP_ROM_PTR(&pin_P1_18) },"
+  },
+  {
+   "pin": "P1_19",
+   "function": "P1_19",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_19), MP_ROM_PTR(&pin_P1_19) },"
+  },
+  {
+   "pin": "P1_20",
+   "function": "P1_20",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_20), MP_ROM_PTR(&pin_P1_20) },"
+  },
+  {
+   "pin": "P1_21",
+   "function": "P1_21",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_21), MP_ROM_PTR(&pin_P1_21) },"
+  },
+  {
+   "pin": "P1_22",
+   "function": "P1_22",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_22), MP_ROM_PTR(&pin_P1_22) },"
+  },
+  {
+   "pin": "P1_23",
+   "function": "P1_23",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_23), MP_ROM_PTR(&pin_P1_23) },"
+  },
+  {
+   "pin": "P1_24",
+   "function": "P1_24",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_24), MP_ROM_PTR(&pin_P1_24) },"
+  },
+  {
+   "pin": "P1_25",
+   "function": "P1_25",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_25), MP_ROM_PTR(&pin_P1_25) },"
+  },
+  {
+   "pin": "P1_26",
+   "function": "P1_26",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_26), MP_ROM_PTR(&pin_P1_26) },"
+  },
+  {
+   "pin": "P1_27",
+   "function": "P1_27",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_27), MP_ROM_PTR(&pin_P1_27) },"
+  },
+  {
+   "pin": "P1_28",
+   "function": "P1_28",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_28), MP_ROM_PTR(&pin_P1_28) },"
+  },
+  {
+   "pin": "P1_29",
+   "function": "P1_29",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_29), MP_ROM_PTR(&pin_P1_29) },"
+  },
+  {
+   "pin": "P1_30",
+   "function": "P1_30",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_30), MP_ROM_PTR(&pin_P1_30) },"
+  },
+  {
+   "pin": "P1_31",
+   "function": "P1_31",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_31), MP_ROM_PTR(&pin_P1_31) },"
+  },
+  {
+   "pin": "P2_00",
+   "function": "P2_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_0), MP_ROM_PTR(&pin_P2_00) },"
+  },
+  {
+   "pin": "P2_01",
+   "function": "P2_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_1), MP_ROM_PTR(&pin_P2_01) },"
+  },
+  {
+   "pin": "P2_02",
+   "function": "P2_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_2), MP_ROM_PTR(&pin_P2_02) },"
+  },
+  {
+   "pin": "P2_03",
+   "function": "P2_3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_3), MP_ROM_PTR(&pin_P2_03) },"
+  },
+  {
+   "pin": "P2_04",
+   "function": "P2_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_4), MP_ROM_PTR(&pin_P2_04) },"
+  },
+  {
+   "pin": "P2_05",
+   "function": "P2_5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_5), MP_ROM_PTR(&pin_P2_05) },"
+  },
+  {
+   "pin": "P2_06",
+   "function": "P2_6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_6), MP_ROM_PTR(&pin_P2_06) },"
+  },
+  {
+   "pin": "P2_07",
+   "function": "P2_7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_7), MP_ROM_PTR(&pin_P2_07) },"
+  },
+  {
+   "pin": "P2_08",
+   "function": "P2_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_8), MP_ROM_PTR(&pin_P2_08) },"
+  },
+  {
+   "pin": "P2_09",
+   "function": "P2_9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_9), MP_ROM_PTR(&pin_P2_09) },"
+  },
+  {
+   "pin": "P2_10",
+   "function": "P2_10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_10), MP_ROM_PTR(&pin_P2_10) },"
+  },
+  {
+   "pin": "P2_11",
+   "function": "P2_11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_11), MP_ROM_PTR(&pin_P2_11) },"
+  },
+  {
+   "pin": "P2_12",
+   "function": "P2_12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_12), MP_ROM_PTR(&pin_P2_12) },"
+  },
+  {
+   "pin": "P2_13",
+   "function": "P2_13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_13), MP_ROM_PTR(&pin_P2_13) },"
+  },
+  {
+   "pin": "P2_14",
+   "function": "P2_14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_14), MP_ROM_PTR(&pin_P2_14) },"
+  },
+  {
+   "pin": "P2_15",
+   "function": "P2_15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_15), MP_ROM_PTR(&pin_P2_15) },"
+  },
+  {
+   "pin": "P2_16",
+   "function": "P2_16",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_16), MP_ROM_PTR(&pin_P2_16) },"
+  },
+  {
+   "pin": "P2_17",
+   "function": "P2_17",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_17), MP_ROM_PTR(&pin_P2_17) },"
+  },
+  {
+   "pin": "P2_18",
+   "function": "P2_18",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_18), MP_ROM_PTR(&pin_P2_18) },"
+  },
+  {
+   "pin": "P2_19",
+   "function": "P2_19",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_19), MP_ROM_PTR(&pin_P2_19) },"
+  },
+  {
+   "pin": "P2_20",
+   "function": "P2_20",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_20), MP_ROM_PTR(&pin_P2_20) },"
+  },
+  {
+   "pin": "P2_21",
+   "function": "P2_21",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_21), MP_ROM_PTR(&pin_P2_21) },"
+  },
+  {
+   "pin": "P2_22",
+   "function": "P2_22",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_22), MP_ROM_PTR(&pin_P2_22) },"
+  },
+  {
+   "pin": "P2_23",
+   "function": "P2_23",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_23), MP_ROM_PTR(&pin_P2_23) },"
+  },
+  {
+   "pin": "P2_24",
+   "function": "P2_24",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_24), MP_ROM_PTR(&pin_P2_24) },"
+  },
+  {
+   "pin": "P2_25",
+   "function": "P2_25",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_25), MP_ROM_PTR(&pin_P2_25) },"
+  },
+  {
+   "pin": "P2_26",
+   "function": "P2_26",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_26), MP_ROM_PTR(&pin_P2_26) },"
+  },
+  {
+   "pin": "P2_27",
+   "function": "P2_27",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_27), MP_ROM_PTR(&pin_P2_27) },"
+  },
+  {
+   "pin": "P2_28",
+   "function": "P2_28",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_28), MP_ROM_PTR(&pin_P2_28) },"
+  },
+  {
+   "pin": "P2_29",
+   "function": "P2_29",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_29), MP_ROM_PTR(&pin_P2_29) },"
+  },
+  {
+   "pin": "P2_30",
+   "function": "P2_30",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_30), MP_ROM_PTR(&pin_P2_30) },"
+  },
+  {
+   "pin": "P2_31",
+   "function": "P2_31",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2_31), MP_ROM_PTR(&pin_P2_31) },"
+  },
+  {
+   "pin": "P3_00",
+   "function": "P3_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_0), MP_ROM_PTR(&pin_P3_00) },"
+  },
+  {
+   "pin": "P3_01",
+   "function": "P3_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_1), MP_ROM_PTR(&pin_P3_01) },"
+  },
+  {
+   "pin": "P3_02",
+   "function": "P3_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_2), MP_ROM_PTR(&pin_P3_02) },"
+  },
+  {
+   "pin": "P3_03",
+   "function": "P3_3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_3), MP_ROM_PTR(&pin_P3_03) },"
+  },
+  {
+   "pin": "P3_04",
+   "function": "P3_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_4), MP_ROM_PTR(&pin_P3_04) },"
+  },
+  {
+   "pin": "P3_05",
+   "function": "P3_5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_5), MP_ROM_PTR(&pin_P3_05) },"
+  },
+  {
+   "pin": "P3_06",
+   "function": "P3_6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_6), MP_ROM_PTR(&pin_P3_06) },"
+  },
+  {
+   "pin": "P3_07",
+   "function": "P3_7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_7), MP_ROM_PTR(&pin_P3_07) },"
+  },
+  {
+   "pin": "P3_08",
+   "function": "P3_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_8), MP_ROM_PTR(&pin_P3_08) },"
+  },
+  {
+   "pin": "P3_09",
+   "function": "P3_9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3_9), MP_ROM_PTR(&pin_P3_09) },"
+  },
+  {
+   "pin": "P4_00",
+   "function": "P4_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P4_0), MP_ROM_PTR(&pin_P4_00) },"
+  },
+  {
+   "pin": "P4_01",
+   "function": "P4_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P4_1), MP_ROM_PTR(&pin_P4_01) },"
+  },
+  {
+   "pin": "P2_01",
+   "function": "LED0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED0), MP_ROM_PTR(&pin_P2_01) },"
+  },
+  {
+   "pin": "P0_11",
+   "function": "LED1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED1), MP_ROM_PTR(&pin_P0_11) },"
+  },
+  {
+   "pin": "P0_12",
+   "function": "LED2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED2), MP_ROM_PTR(&pin_P0_12) },"
+  },
+  {
+   "pin": "P1_27",
+   "function": "S2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_S2), MP_ROM_PTR(&pin_P1_27) },"
+  }
+ ]
+}

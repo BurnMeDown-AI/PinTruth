@@ -1,0 +1,183 @@
+{
+ "board": "adafruit_matrixportal_esp32s3",
+ "aliases": [
+  "adafruit_matrixportal_esp32s3"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/adafruit_matrixportal_esp32s3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO13",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN 13"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "PIN_NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_NEOPIXEL 4"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "NEOPIXEL_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define NEOPIXEL_PIN 4"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "PIN_BUTTON_UP",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_BUTTON_UP 6"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "PIN_BUTTON_DOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_BUTTON_DOWN 7"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 18;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 8;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "TX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define TX1 TX",
+   "also": [
+    "static const uint8_t TX = 18;"
+   ]
+  },
+  {
+   "pin": "GPIO8",
+   "function": "RX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RX1 RX",
+   "also": [
+    "static const uint8_t RX = 8;"
+   ]
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 16;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 17;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 12;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 3;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 9;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 11;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 5; // Light"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "T3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T3 = 3; // Touch pin IDs map directly"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "T8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T8 = 8; // to underlying GPIO numbers NOT"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "T9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T9 = 9; // the analog numbers on board silk"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "T10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T10 = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "T11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T11 = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "T12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T12 = 12;"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "board": "twinaiot",
+ "aliases": [
+  "twinaiot"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/twinaiot/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO15",
+   "function": "RGB_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RGB_PIN 15"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN = 35;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN LED_BUILTIN // allow testing #ifdef LED_BUILTIN",
+   "also": [
+    "static const uint8_t LED_BUILTIN = 35;"
+   ]
+  },
+  {
+   "pin": "GPIO39",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 39;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 39;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 40;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 4;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "D6_OUT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D6_OUT_PIN = 35;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "D9_OUT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D9_OUT_PIN = 36;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "D10_OUT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D10_OUT_PIN = 10;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "TOUCH_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TOUCH_PIN = 13;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "TRIG_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TRIG_PIN = 5; // GPIO connected to HC-SR04 TRIG"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "ECHO_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ECHO_PIN = 6; // GPIO connected to HC-SR04 ECHO"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "latchPin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t latchPin = 34;"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "clockPin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t clockPin = 47;"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "dataPin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t dataPin = 48;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "D_IN_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D_IN_4 = 8;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "D_IN_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D_IN_8 = 11;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "D_IN_12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D_IN_12 = 9;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "AN_IN_4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t AN_IN_4 = 17;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "AN_IN_8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t AN_IN_8 = 16;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "AN_IN_12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t AN_IN_12 = 7;"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "S1pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t S1pin = 37;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "S2pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t S2pin = 38;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "S3pin",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t S3pin = 14;"
+  }
+ ]
+}

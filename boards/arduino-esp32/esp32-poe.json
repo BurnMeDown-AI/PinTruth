@@ -1,0 +1,116 @@
+{
+ "board": "esp32-poe",
+ "aliases": [
+  "esp32-poe"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/esp32-poe/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO34",
+   "function": "KEY_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t KEY_BUILTIN = 34;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "TX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define TX1 4"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "RX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RX1 36"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "TX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define TX2 33 // ext2 pin 5"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "RX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RX2 35 // ext2 pin 3"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 13;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 33;",
+   "condition": "defined BOARD_HAS_PSRAM"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 16;",
+   "condition": "not (defined BOARD_HAS_PSRAM)"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 5;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 2;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 15;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 14;"
+  }
+ ]
+}

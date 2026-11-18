@@ -1,0 +1,479 @@
+{
+ "board": "huidu_hd_wf4",
+ "aliases": [
+  "huidu_hd_wf4"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/huidu_hd_wf4/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO39",
+   "function": "WF4_A_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_A_PIN 39"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "WF4_B_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_B_PIN 38"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "WF4_C_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_C_PIN 37"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "WF4_D_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_D_PIN 36"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "WF4_E_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_E_PIN 21"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "WF4_OE_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_OE_PIN 35"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "WF4_CLK_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_CLK_PIN 34"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "WF4_LAT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_LAT_PIN 33"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "WF4_X1_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_R1_PIN 2"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "WF4_X1_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_R2_PIN 3"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "WF4_X1_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_G1_PIN 6"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "WF4_X1_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_G2_PIN 7"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "WF4_X1_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_B1_PIN 10"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "WF4_X1_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_B2_PIN 11"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "WF4_X1_CS_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X1_CS_PIN 45 // CS gpio must be set HIGH to enable X1 output"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "WF4_X2_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_R1_PIN 4"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "WF4_X2_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_R2_PIN 5"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "WF4_X2_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_G1_PIN 8"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "WF4_X2_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_G2_PIN 9"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "WF4_X2_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_B1_PIN 12"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "WF4_X2_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_B2_PIN 13"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "WF4_X2_CS_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X2_CS_PIN WF4_X1_CS_PIN // CS gpio must be set HIGH to enable X2 output",
+   "also": [
+    "#define WF4_X1_CS_PIN 45 // CS gpio must be set HIGH to enable X1 output"
+   ]
+  },
+  {
+   "pin": "GPIO2",
+   "function": "WF4_X3_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_R1_PIN 2"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "WF4_X3_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_R2_PIN 3"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "WF4_X3_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_G1_PIN 6"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "WF4_X3_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_G2_PIN 7"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "WF4_X3_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_B1_PIN 10"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "WF4_X3_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_B2_PIN 11"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "WF4_X3_CS_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X3_CS_PIN 14 // CS gpio must be set HIGH to enable X3 output"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "WF4_X4_R1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_R1_PIN 4"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "WF4_X4_R2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_R2_PIN 5"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "WF4_X4_G1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_G1_PIN 8"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "WF4_X4_G2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_G2_PIN 9"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "WF4_X4_B1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_B1_PIN 12"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "WF4_X4_B2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_B2_PIN 13"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "WF4_X4_CS_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_X4_CS_PIN WF4_X3_CS_PIN // CS gpio must be set HIGH to enable X4 output",
+   "also": [
+    "#define WF4_X3_CS_PIN 14 // CS gpio must be set HIGH to enable X3 output"
+   ]
+  },
+  {
+   "pin": "GPIO44",
+   "function": "WF4_P1_RX_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P1_RX_PIN 44"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "WF4_P1_TX_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P1_TX_PIN 43"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "WF4_P2_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P2_DATA_PIN 0 // GPIO0 boot"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "WF4_P5_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P5_DATA_PIN 16"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "WF4_P7_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P7_DATA_PIN 1"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "WF4_P11_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P11_DATA_PIN 15"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "WF4_P12_DATA1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P12_DATA1_PIN 47"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "WF4_P12_DATA2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_P12_DATA2_PIN 18"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "WF4_S1_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_S1_DATA_PIN 17"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "WF4_S2_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_S2_DATA_PIN 48"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "WF4_S3_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_S3_DATA_PIN 26"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "WF4_S4_DATA_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_S4_DATA_PIN 46"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "WF4_LED_RUN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_LED_RUN_PIN 40 // Status LED on PCB"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "WF4_USB_DN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_USB_DN_PIN 19 // USB-A D-"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "WF4_USB_DP_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WF4_USB_DP_PIN 20 // USB-A D+"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN WF4_LED_RUN_PIN",
+   "also": [
+    "#define WF4_LED_RUN_PIN 40 // Status LED on PCB"
+   ]
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = WF4_P1_TX_PIN;",
+   "also": [
+    "#define WF4_P1_TX_PIN 43"
+   ]
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = WF4_P1_RX_PIN;",
+   "also": [
+    "#define WF4_P1_RX_PIN 44"
+   ]
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = WF4_BM8563_I2C_SDA;",
+   "also": [
+    "#define WF4_BM8563_I2C_SDA 41 // RTC BM8563 I2C port"
+   ]
+  },
+  {
+   "pin": "GPIO42",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = WF4_BM8563_I2C_SCL;",
+   "also": [
+    "#define WF4_BM8563_I2C_SCL 42"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = WF4_S2_DATA_PIN;",
+   "also": [
+    "#define WF4_S2_DATA_PIN 48"
+   ]
+  },
+  {
+   "pin": "GPIO26",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = WF4_S3_DATA_PIN;",
+   "also": [
+    "#define WF4_S3_DATA_PIN 26"
+   ]
+  },
+  {
+   "pin": "GPIO46",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = WF4_S4_DATA_PIN;",
+   "also": [
+    "#define WF4_S4_DATA_PIN 46"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = WF4_P7_DATA_PIN;",
+   "also": [
+    "#define WF4_P7_DATA_PIN 1"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "T1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T1 = WF4_P7_DATA_PIN;",
+   "also": [
+    "#define WF4_P7_DATA_PIN 1"
+   ]
+  }
+ ]
+}

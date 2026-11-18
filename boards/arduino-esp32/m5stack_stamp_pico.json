@@ -1,0 +1,156 @@
+{
+ "board": "m5stack_stamp_pico",
+ "aliases": [
+  "m5stack_stamp_pico"
+ ],
+ "mcu": "esp32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/m5stack_stamp_pico/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 22;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 19;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 26;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 36;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 18;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "G26",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G26 = 26;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "G36",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G36 = 36;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "G18",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G18 = 18;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "G19",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G19 = 19;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "G21",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G21 = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "G22",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G22 = 22;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "G25",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G25 = 25;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "G1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G1 = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "G3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G3 = 3;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "G0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G0 = 0;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "G32",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G32 = 32;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "G33",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t G33 = 33;"
+  }
+ ]
+}

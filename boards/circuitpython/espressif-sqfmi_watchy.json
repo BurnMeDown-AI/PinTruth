@@ -1,0 +1,121 @@
+{
+ "board": "SQFMI Watchy",
+ "aliases": [
+  "sqfmi_watchy"
+ ],
+ "mcu": "ESP32-PICO-D4",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/sqfmi_watchy/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO34",
+   "function": "VBAT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VBAT), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "S32K",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_S32K), MP_ROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "BTN1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN1), MP_ROM_PTR(&pin_GPIO26) },"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "BTN2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN2), MP_ROM_PTR(&pin_GPIO25) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "BTN3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN3), MP_ROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "BTN4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN4), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "VIB",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VIB), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "EPD_SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_SS), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "EPD_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_BUSY), MP_ROM_PTR(&pin_GPIO19) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "EPD_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_SCK), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "EPD_RES",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_RES), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "EPD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_EPD_DC), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "ACC_INT_1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACC_INT_1), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "ACC_INT_2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACC_INT_2), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "RTC_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RTC_INT), MP_ROM_PTR(&pin_GPIO27) },"
+  }
+ ]
+}

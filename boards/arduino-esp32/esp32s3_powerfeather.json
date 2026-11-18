@@ -1,0 +1,240 @@
+{
+ "board": "esp32s3_powerfeather",
+ "aliases": [
+  "esp32s3_powerfeather"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/esp32s3_powerfeather/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO21",
+   "function": "ALARM",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ALARM = 21;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t INT = 5;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED = 46;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BTN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BTN = 0;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EN = 7;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 44;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 42;"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX0 = 43;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 41;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 39;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 36;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 35;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "WIRE1_PIN_DEFINED",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define WIRE1_PIN_DEFINED 1"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SCL1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL1 = 48;"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "SDA1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA1 = 47;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 10;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 9;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 8;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 3;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 2;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 1;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D5 = 15;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D6 = 16;"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D7 = 37;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D8 = 6;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D9 = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D10 = 18;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D11 = 45;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D12 = 12;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D13 = 11;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN 46"
+  }
+ ]
+}

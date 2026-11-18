@@ -1,0 +1,149 @@
+{
+ "board": "Oxocard Artwork",
+ "aliases": [
+  "oxocard_artwork"
+ ],
+ "mcu": "ESP32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/oxocard_artwork/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "BTN5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN5), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "AUDIO_N",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_N), MP_ROM_PTR(&pin_GPIO26) },"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "AUDIO_P",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_P), MP_ROM_PTR(&pin_GPIO25) },"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "AUDIO_SD",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AUDIO_SD), MP_ROM_PTR(&pin_GPIO20) },"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "LCD_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_LED), MP_ROM_PTR(&pin_GPIO19) },"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "LCD_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_DC), MP_ROM_PTR(&pin_GPIO27) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LCD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_CS), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "LCD_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LCD_RST), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "BTN4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN4), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "BTN3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN3), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "BTN2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN2), MP_ROM_PTR(&pin_GPIO37) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "BTN1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BTN1), MP_ROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "ACC_INT1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACC_INT1), MP_ROM_PTR(&pin_GPIO34) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "ACC_INT2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACC_INT2), MP_ROM_PTR(&pin_GPIO35) },"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "board": "Adafruit-Qualia-S3-RGB666",
+ "aliases": [
+  "adafruit_qualia_s3_rgb666"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/adafruit_qualia_s3_rgb666/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO2",
+   "function": "de",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_de), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "vsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_vsync), MP_ROM_PTR(&pin_GPIO42) },"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "hsync",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_hsync), MP_ROM_PTR(&pin_GPIO41) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "dclk",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_dclk), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO43) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CS), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_GPIO16) },"
+  }
+ ]
+}

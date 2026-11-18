@@ -1,0 +1,183 @@
+{
+ "board": "pandabyte_xc5",
+ "aliases": [
+  "pandabyte_xc5"
+ ],
+ "mcu": "esp32c5",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/pandabyte_xc5/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO23",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN = 23;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "RGB_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RGB_BUILTIN = 10;"
+  },
+  {
+   "pin": "GPIO24",
+   "function": "BUTTON_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON_BUILTIN = 24;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 12;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 0;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 1;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 6;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 8;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 9;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 10;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 6;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "LP_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LP_SDA = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "LP_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LP_SCL = 3;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SDA1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define SDA1 LP_SDA",
+   "also": [
+    "static const uint8_t LP_SDA = 2;"
+   ]
+  },
+  {
+   "pin": "GPIO3",
+   "function": "SCL1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define SCL1 LP_SCL",
+   "also": [
+    "static const uint8_t LP_SCL = 3;"
+   ]
+  },
+  {
+   "pin": "GPIO4",
+   "function": "LP_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LP_RX = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "LP_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LP_TX = 5;"
+  }
+ ]
+}

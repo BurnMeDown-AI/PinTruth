@@ -1,0 +1,177 @@
+{
+ "board": "THUNDERPACK_v11",
+ "aliases": [
+  "thunderpack_v11"
+ ],
+ "mcu": "STM32F411CE",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/stm/boards/thunderpack_v11/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA00",
+   "function": "PA0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA0), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "PA1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA1), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "PA2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA2), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA03",
+   "function": "PA3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA3), MP_ROM_PTR(&pin_PA03) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "PA4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA4), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "PA5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA5), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "PA6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA6), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "PA7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA7), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PA08",
+   "function": "PA8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA8), MP_ROM_PTR(&pin_PA08) },"
+  },
+  {
+   "pin": "PA09",
+   "function": "PA9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA9), MP_ROM_PTR(&pin_PA09) },"
+  },
+  {
+   "pin": "PA10",
+   "function": "PA10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA10), MP_ROM_PTR(&pin_PA10) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "PA13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA13), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "PA14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PA14), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PB05",
+   "function": "PB5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PB5), MP_ROM_PTR(&pin_PB05) },"
+  },
+  {
+   "pin": "PB06",
+   "function": "PB6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PB6), MP_ROM_PTR(&pin_PB06) },"
+  },
+  {
+   "pin": "PB07",
+   "function": "PB7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PB7), MP_ROM_PTR(&pin_PB07) },"
+  },
+  {
+   "pin": "PA00",
+   "function": "LED1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED1), MP_ROM_PTR(&pin_PA00) },"
+  },
+  {
+   "pin": "PA01",
+   "function": "LED2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED2), MP_ROM_PTR(&pin_PA01) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "LED3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED3), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA03",
+   "function": "LED4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED4), MP_ROM_PTR(&pin_PA03) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_PB04) },"
+  },
+  {
+   "pin": "PB06",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PB06) },"
+  },
+  {
+   "pin": "PB07",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PB07) },"
+  }
+ ]
+}

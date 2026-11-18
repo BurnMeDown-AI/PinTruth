@@ -1,0 +1,401 @@
+{
+ "board": "P1AM-200",
+ "aliases": [
+  "p1am_200"
+ ],
+ "mcu": "samd51p20",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/p1am_200/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PA03",
+   "function": "AREF",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_AREF), MP_ROM_PTR(&pin_PA03) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A0), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PB00",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PB00) },"
+  },
+  {
+   "pin": "PC00",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A3), MP_ROM_PTR(&pin_PC00) },"
+  },
+  {
+   "pin": "PC01",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PC01) },"
+  },
+  {
+   "pin": "PC02",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A5), MP_ROM_PTR(&pin_PC02) },"
+  },
+  {
+   "pin": "PC03",
+   "function": "A6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_A6), MP_ROM_PTR(&pin_PC03) },"
+  },
+  {
+   "pin": "PC03",
+   "function": "DE1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_DE1), MP_ROM_PTR(&pin_PC03) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "TX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX2), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D1), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "RX2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX2), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PC18",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D2), MP_ROM_PTR(&pin_PC18) },"
+  },
+  {
+   "pin": "PC18",
+   "function": "SERIAL_MODE2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SERIAL_MODE2), MP_ROM_PTR(&pin_PC18) },"
+  },
+  {
+   "pin": "PC19",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D3), MP_ROM_PTR(&pin_PC19) },"
+  },
+  {
+   "pin": "PC19",
+   "function": "SERIAL_MODE1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SERIAL_MODE1), MP_ROM_PTR(&pin_PC19) },"
+  },
+  {
+   "pin": "PC20",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D4), MP_ROM_PTR(&pin_PC20) },"
+  },
+  {
+   "pin": "PC10",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D5), MP_ROM_PTR(&pin_PC10) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D6), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "DE2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_DE2), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D7), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PD08",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D8), MP_ROM_PTR(&pin_PD08) },"
+  },
+  {
+   "pin": "PD08",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_PD08) },"
+  },
+  {
+   "pin": "PD09",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D9), MP_ROM_PTR(&pin_PD09) },"
+  },
+  {
+   "pin": "PD09",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_PD09) },"
+  },
+  {
+   "pin": "PD11",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D10), MP_ROM_PTR(&pin_PD11) },"
+  },
+  {
+   "pin": "PD11",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_PD11) },"
+  },
+  {
+   "pin": "PB20",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D11), MP_ROM_PTR(&pin_PB20) },"
+  },
+  {
+   "pin": "PB20",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PB20) },"
+  },
+  {
+   "pin": "PB21",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D12), MP_ROM_PTR(&pin_PB21) },"
+  },
+  {
+   "pin": "PB21",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PB21) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D13), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "RX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RX1), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D14), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "TX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_TX1), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PB01",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PB01) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "SWITCH",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SWITCH), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PC24",
+   "function": "NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_NEOPIXEL), MP_ROM_PTR(&pin_PC24) },"
+  },
+  {
+   "pin": "PC22",
+   "function": "BC_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_MOSI), MP_ROM_PTR(&pin_PC22) },"
+  },
+  {
+   "pin": "PC23",
+   "function": "BC_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_SCK), MP_ROM_PTR(&pin_PC23) },"
+  },
+  {
+   "pin": "PD20",
+   "function": "BC_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_CS), MP_ROM_PTR(&pin_PD20) },"
+  },
+  {
+   "pin": "PD21",
+   "function": "BC_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_MISO), MP_ROM_PTR(&pin_PD21) },"
+  },
+  {
+   "pin": "PB16",
+   "function": "BC_READY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_READY), MP_ROM_PTR(&pin_PB16) },"
+  },
+  {
+   "pin": "PB17",
+   "function": "BC_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_BC_EN), MP_ROM_PTR(&pin_PB17) },"
+  },
+  {
+   "pin": "PC16",
+   "function": "ATMAC_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ATMAC_SDA), MP_ROM_PTR(&pin_PC16) },"
+  },
+  {
+   "pin": "PC17",
+   "function": "ATMAC_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ATMAC_SCL), MP_ROM_PTR(&pin_PC17) },"
+  },
+  {
+   "pin": "PC16",
+   "function": "RTC_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RTC_SDA), MP_ROM_PTR(&pin_PC16) },"
+  },
+  {
+   "pin": "PC17",
+   "function": "RTC_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RTC_SCL), MP_ROM_PTR(&pin_PC17) },"
+  },
+  {
+   "pin": "PC31",
+   "function": "P24V",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_P24V), MP_ROM_PTR(&pin_PC31) },"
+  },
+  {
+   "pin": "PB26",
+   "function": "SD_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_MOSI), MP_ROM_PTR(&pin_PB26) },"
+  },
+  {
+   "pin": "PB27",
+   "function": "SD_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_SCK), MP_ROM_PTR(&pin_PB27) },"
+  },
+  {
+   "pin": "PB28",
+   "function": "SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_CS), MP_ROM_PTR(&pin_PB28) },"
+  },
+  {
+   "pin": "PB29",
+   "function": "SD_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_MISO), MP_ROM_PTR(&pin_PB29) },"
+  },
+  {
+   "pin": "PB31",
+   "function": "SD_CARD_DETECT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SD_CARD_DETECT), MP_ROM_PTR(&pin_PB31) },"
+  }
+ ]
+}

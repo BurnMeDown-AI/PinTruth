@@ -1,0 +1,338 @@
+{
+ "board": "TG-Watch",
+ "aliases": [
+  "TG-Watch"
+ ],
+ "mcu": "nRF52840",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/TG-Watch/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_14",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCK), MP_ROM_PTR(&pin_P0_14) },"
+  },
+  {
+   "pin": "P0_13",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MOSI), MP_ROM_PTR(&pin_P0_13) },"
+  },
+  {
+   "pin": "P0_15",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MISO), MP_ROM_PTR(&pin_P0_15) },"
+  },
+  {
+   "pin": "P0_25",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_P0_25) },"
+  },
+  {
+   "pin": "P0_24",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_P0_24) },"
+  },
+  {
+   "pin": "P0_11",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_P0_11) },"
+  },
+  {
+   "pin": "P0_12",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_P0_12) },"
+  },
+  {
+   "pin": "P1_04",
+   "function": "VBUS_PRESENT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VBUS_PRESENT), MP_ROM_PTR(&pin_P1_04) },"
+  },
+  {
+   "pin": "P1_06",
+   "function": "HAPTIC_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HAPTIC_ENABLE), MP_ROM_PTR(&pin_P1_06) },"
+  },
+  {
+   "pin": "P1_07",
+   "function": "HAPTIC_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HAPTIC_INT), MP_ROM_PTR(&pin_P1_07) },"
+  },
+  {
+   "pin": "P1_05",
+   "function": "CTP_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CTP_INT), MP_ROM_PTR(&pin_P1_05) },"
+  },
+  {
+   "pin": "P1_03",
+   "function": "CTP_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CTP_RST), MP_ROM_PTR(&pin_P1_03) },"
+  },
+  {
+   "pin": "P1_01",
+   "function": "TFT_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_RST), MP_ROM_PTR(&pin_P1_01) },"
+  },
+  {
+   "pin": "P1_12",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_DC), MP_ROM_PTR(&pin_P1_12) },"
+  },
+  {
+   "pin": "P1_13",
+   "function": "D21",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_D21), MP_ROM_PTR(&pin_P1_13) },"
+  },
+  {
+   "pin": "P1_14",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_CS), MP_ROM_PTR(&pin_P1_14) },"
+  },
+  {
+   "pin": "P1_11",
+   "function": "ACCEL_INT1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACCEL_INT1), MP_ROM_PTR(&pin_P1_11) },"
+  },
+  {
+   "pin": "P1_10",
+   "function": "ACCEL_INT2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACCEL_INT2), MP_ROM_PTR(&pin_P1_10) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "BATTERY_DIV",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BATTERY_DIV), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P0_27",
+   "function": "RTC_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RTC_INT), MP_ROM_PTR(&pin_P0_27) },"
+  },
+  {
+   "pin": "P0_26",
+   "function": "RTC_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RTC_RST), MP_ROM_PTR(&pin_P0_26) },"
+  },
+  {
+   "pin": "P0_06",
+   "function": "CHRG_STAT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CHRG_STAT), MP_ROM_PTR(&pin_P0_06) },"
+  },
+  {
+   "pin": "P0_07",
+   "function": "BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BACKLIGHT), MP_ROM_PTR(&pin_P0_07) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "BAT_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BAT_INT), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P0_04",
+   "function": "SMC_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SMC_RST), MP_ROM_PTR(&pin_P0_04) },"
+  },
+  {
+   "pin": "P0_04",
+   "function": "_A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A0), MP_ROM_PTR(&pin_P0_04) },"
+  },
+  {
+   "pin": "P0_05",
+   "function": "_A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A1), MP_ROM_PTR(&pin_P0_05) },"
+  },
+  {
+   "pin": "P0_30",
+   "function": "_A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A2), MP_ROM_PTR(&pin_P0_30) },"
+  },
+  {
+   "pin": "P0_28",
+   "function": "_A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A3), MP_ROM_PTR(&pin_P0_28) },"
+  },
+  {
+   "pin": "P0_02",
+   "function": "_A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A4), MP_ROM_PTR(&pin_P0_02) },"
+  },
+  {
+   "pin": "P0_03",
+   "function": "_A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__A5), MP_ROM_PTR(&pin_P0_03) },"
+  },
+  {
+   "pin": "P0_31",
+   "function": "AREF",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AREF), MP_ROM_PTR(&pin_P0_31) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "_VOLTAGE_MONITOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__VOLTAGE_MONITOR), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "_BATTERY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__BATTERY), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P1_02",
+   "function": "_SWITCH",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__SWITCH), MP_ROM_PTR(&pin_P1_02) },"
+  },
+  {
+   "pin": "P0_09",
+   "function": "_NFC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__NFC1), MP_ROM_PTR(&pin_P0_09) },"
+  },
+  {
+   "pin": "P0_10",
+   "function": "_NFC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__NFC2), MP_ROM_PTR(&pin_P0_10) },"
+  },
+  {
+   "pin": "P0_10",
+   "function": "_D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D2), MP_ROM_PTR(&pin_P0_10) },"
+  },
+  {
+   "pin": "P1_08",
+   "function": "_D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D5), MP_ROM_PTR(&pin_P1_08) },"
+  },
+  {
+   "pin": "P0_07",
+   "function": "_D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D6), MP_ROM_PTR(&pin_P0_07) },"
+  },
+  {
+   "pin": "P0_26",
+   "function": "_D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D9), MP_ROM_PTR(&pin_P0_26) },"
+  },
+  {
+   "pin": "P0_27",
+   "function": "_D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D10), MP_ROM_PTR(&pin_P0_27) },"
+  },
+  {
+   "pin": "P0_06",
+   "function": "_D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D11), MP_ROM_PTR(&pin_P0_06) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "_D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D12), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P1_09",
+   "function": "_D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__D13), MP_ROM_PTR(&pin_P1_09) },"
+  },
+  {
+   "pin": "P0_16",
+   "function": "_NEOPIXEL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR__NEOPIXEL), MP_ROM_PTR(&pin_P0_16) },"
+  }
+ ]
+}

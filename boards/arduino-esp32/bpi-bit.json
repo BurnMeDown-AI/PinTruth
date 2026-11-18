@@ -1,0 +1,275 @@
+{
+ "board": "bpi-bit",
+ "aliases": [
+  "bpi-bit"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/bpi-bit/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO25",
+   "function": "BUZZER",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUZZER = 25;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "BUTTON_A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON_A = 35;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "BUTTON_B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON_B = 27;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "RGB_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RGB_LED = 4;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "LIGHT_SENSOR1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LIGHT_SENSOR1 = 36;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "LIGHT_SENSOR2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LIGHT_SENSOR2 = 39;"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "TEMPERATURE_SENSOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TEMPERATURE_SENSOR = 34;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "MPU9250_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MPU9250_INT = 0;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 22;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 5;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 23;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 19;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 18;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "P0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P0 = 25;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "P1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P1 = 32;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "P2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P2 = 33;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "P3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P3 = 13;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "P4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P4 = 15;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "P5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P5 = 35;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "P6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P6 = 12;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "P7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P7 = 14;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "P8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P8 = 16;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "P9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P9 = 17;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "P10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P10 = 26;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "P11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P11 = 27;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "P12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P12 = 2;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "P13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P13 = 18;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "P14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P14 = 19;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "P15",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P15 = 23;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "P16",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P16 = 5;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "P19",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P19 = 22;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "P20",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t P20 = 21;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "DAC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC1 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "DAC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC2 = 26;"
+  }
+ ]
+}

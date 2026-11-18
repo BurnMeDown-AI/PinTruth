@@ -1,0 +1,205 @@
+{
+ "board": "ViraLink-G1.1",
+ "aliases": [
+  "ViraLink-G1.1"
+ ],
+ "mcu": "esp32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/ViraLink-G1.1/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "RESET_KEY",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RESET_KEY = 0;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "RF433",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RF433 = 5;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "RS485_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RS485_TX = 32;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "RS485_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RS485_RX = 35;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "GSM1_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GSM1_TX = 15;"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "GSM1_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GSM1_RX = 34;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "GSM2_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GSM2_TX = 32;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "GSM2_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GSM2_RX = 35;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "GSM_PWR",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GSM_PWR = 33;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 4;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 16;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "EXT1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EXT1 = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "EXT2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EXT2 = 13;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "PCF1_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCF1_INT = 14;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "Wiegand1_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t Wiegand1_D0 = 15;"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "Wiegand1_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t Wiegand1_D1 = 34;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "Wiegand2_D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t Wiegand2_D0 = 39;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "Wiegand2_D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t Wiegand2_D1 = 36;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "ETH_CLK_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ETH_CLK_OUT = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "EMAC_MDIO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_MDIO = 18;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "EMAC_TXD0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_TXD0 = 19;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "EMAC_TX_EN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_TX_EN = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "EMAC_TXD1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_TXD1 = 22;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "EMAC_MDC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_MDC = 23;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "EMAC_RXD0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_RXD0 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "EMAC_RXD1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_RXD1 = 26;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "EMAC_RXD_DV",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t EMAC_RXD_DV = 27;"
+  }
+ ]
+}

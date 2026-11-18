@@ -1,0 +1,205 @@
+{
+ "board": "LILYGO T-Watch-S3",
+ "aliases": [
+  "lilygo_twatch_s3"
+ ],
+ "mcu": "ESP32S3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/lilygo_twatch_s3/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO13",
+   "function": "TFT_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_MOSI), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "TFT_SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_SCLK), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_CS), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_DC), MP_ROM_PTR(&pin_GPIO38) },"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "TFT_BL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_BL), MP_ROM_PTR(&pin_GPIO45) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "TOUCH_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_INT), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "TOUCH_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SCL), MP_ROM_PTR(&pin_GPIO40) },"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "TOUCH_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SDA), MP_ROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "RTC_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RTC_INT), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "IR_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IR_LED), MP_ROM_PTR(&pin_GPIO2) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "PMU_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PMU_INT), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RADIO_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_SCK), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "RADIO_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_MISO), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "RADIO_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_MOSI), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "RADIO_SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_SS), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "RADIO_DIO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_DIO1), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "RADIO_RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_RST), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "RADIO_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RADIO_BUSY), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "MIC_DATA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MIC_DATA), MP_ROM_PTR(&pin_GPIO47) },"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "MIC_SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MIC_SCLK), MP_ROM_PTR(&pin_GPIO44) },"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "I2S_BCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_BCK), MP_ROM_PTR(&pin_GPIO48) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "I2S_WS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WS), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "I2S_DOUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_DOUT), MP_ROM_PTR(&pin_GPIO46) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "AXIS_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_AXIS_INT), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "I2C_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C_SCL), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "I2C_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C_SDA), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BOOT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BOOT), MP_ROM_PTR(&pin_GPIO0) }"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "board": "Espruino Bangle.js 2",
+ "aliases": [
+  "espruino_banglejs2"
+ ],
+ "mcu": "nRF52840",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/espruino_banglejs2/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_02",
+   "function": "PRESSURE_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PRESSURE_SCL), MP_ROM_PTR(&pin_P0_02) },"
+  },
+  {
+   "pin": "P0_03",
+   "function": "VOLTAGE_MONITOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VOLTAGE_MONITOR), MP_ROM_PTR(&pin_P0_03) },"
+  },
+  {
+   "pin": "P0_05",
+   "function": "MEMLCD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MEMLCD_CS), MP_ROM_PTR(&pin_P0_05) },"
+  },
+  {
+   "pin": "P0_06",
+   "function": "MEMLCD_EXTCOMIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MEMLCD_EXTCOMIN), MP_ROM_PTR(&pin_P0_06) },"
+  },
+  {
+   "pin": "P0_07",
+   "function": "MEMLCD_DISP",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MEMLCD_DISP), MP_ROM_PTR(&pin_P0_07) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BACKLIGHT), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P0_17",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_P0_17) },"
+  },
+  {
+   "pin": "P0_19",
+   "function": "VIBRATE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_VIBRATE), MP_ROM_PTR(&pin_P0_19) },"
+  },
+  {
+   "pin": "P0_21",
+   "function": "HRM_POWER",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HRM_POWER), MP_ROM_PTR(&pin_P0_21) },"
+  },
+  {
+   "pin": "P0_22",
+   "function": "HRM_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HRM_INT), MP_ROM_PTR(&pin_P0_22) },"
+  },
+  {
+   "pin": "P0_23",
+   "function": "CHARGE_PORT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CHARGE_PORT), MP_ROM_PTR(&pin_P0_23) },"
+  },
+  {
+   "pin": "P0_24",
+   "function": "HRM_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HRM_SDA), MP_ROM_PTR(&pin_P0_24) },"
+  },
+  {
+   "pin": "P0_25",
+   "function": "CHARGE_COMPLETE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_CHARGE_COMPLETE), MP_ROM_PTR(&pin_P0_25) },"
+  },
+  {
+   "pin": "P0_26",
+   "function": "MEMLCD_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MEMLCD_SCK), MP_ROM_PTR(&pin_P0_26) },"
+  },
+  {
+   "pin": "P0_27",
+   "function": "MEMLCD_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MEMLCD_MOSI), MP_ROM_PTR(&pin_P0_27) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "GPS_POWER",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_GPS_POWER), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P0_30",
+   "function": "GPS_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_GPS_TX), MP_ROM_PTR(&pin_P0_30) },"
+  },
+  {
+   "pin": "P0_31",
+   "function": "GPS_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_GPS_RX), MP_ROM_PTR(&pin_P0_31) },"
+  },
+  {
+   "pin": "P1_00",
+   "function": "HRM_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_HRM_SCL), MP_ROM_PTR(&pin_P1_00) },"
+  },
+  {
+   "pin": "P1_01",
+   "function": "TOUCH_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SDA), MP_ROM_PTR(&pin_P1_01) },"
+  },
+  {
+   "pin": "P1_02",
+   "function": "TOUCH_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_SCL), MP_ROM_PTR(&pin_P1_02) },"
+  },
+  {
+   "pin": "P1_03",
+   "function": "TOUCH_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TOUCH_INT), MP_ROM_PTR(&pin_P1_03) },"
+  },
+  {
+   "pin": "P1_04",
+   "function": "ACCEL_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACCEL_SDA), MP_ROM_PTR(&pin_P1_04) },"
+  },
+  {
+   "pin": "P1_05",
+   "function": "ACCEL_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ACCEL_SCL), MP_ROM_PTR(&pin_P1_05) },"
+  },
+  {
+   "pin": "P1_10",
+   "function": "COMPASS_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_COMPASS_SDA), MP_ROM_PTR(&pin_P1_10) },"
+  },
+  {
+   "pin": "P1_11",
+   "function": "COMPASS_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_COMPASS_SCL), MP_ROM_PTR(&pin_P1_11) },"
+  },
+  {
+   "pin": "P1_13",
+   "function": "PRESSURE_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_PRESSURE_SDA), MP_ROM_PTR(&pin_P1_13) },"
+  }
+ ]
+}

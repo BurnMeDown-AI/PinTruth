@@ -1,0 +1,261 @@
+{
+ "board": "Nebula_S3",
+ "aliases": [
+  "Nebula_S3"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/Nebula_S3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 43;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 44;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 13;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SDA1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA1 = 2;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SCL1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL1 = 1;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 41;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 39;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 38;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D0 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D1 = 2;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D2 = 44;"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D3 = 43;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D4 = 42;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D5 = 41;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D6 = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D7 = 39;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D8 = 38;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D9 = 27;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D10 = 45;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D11 = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D12 = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D13 = 6;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D14 = 7;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "D15",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D15 = 15;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "D16",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D16 = 16;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "D17",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D17 = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "D18",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D18 = 18;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 6;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 7;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 2;"
+  }
+ ]
+}

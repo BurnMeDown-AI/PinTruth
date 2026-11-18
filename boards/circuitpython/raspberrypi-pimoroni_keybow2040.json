@@ -1,0 +1,184 @@
+{
+ "board": "Pimoroni Keybow 2040",
+ "aliases": [
+  "pimoroni_keybow2040"
+ ],
+ "mcu": "rp2040",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/raspberrypi/boards/pimoroni_keybow2040/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "GP0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_GP0), MP_ROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "GP1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_GP1), MP_ROM_PTR(&pin_GPIO1) },"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_INT), MP_ROM_PTR(&pin_GPIO3) },"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_GPIO4) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SW0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW0), MP_ROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "SW1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW1), MP_ROM_PTR(&pin_GPIO20) },"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "SW2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW2), MP_ROM_PTR(&pin_GPIO19) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SW3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW3), MP_ROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "SW4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW4), MP_ROM_PTR(&pin_GPIO17) },"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SW5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW5), MP_ROM_PTR(&pin_GPIO16) },"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SW6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW6), MP_ROM_PTR(&pin_GPIO15) },"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SW7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW7), MP_ROM_PTR(&pin_GPIO14) },"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "SW8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW8), MP_ROM_PTR(&pin_GPIO13) },"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SW9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW9), MP_ROM_PTR(&pin_GPIO12) },"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SW10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW10), MP_ROM_PTR(&pin_GPIO11) },"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SW11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW11), MP_ROM_PTR(&pin_GPIO10) },"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "SW12",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW12), MP_ROM_PTR(&pin_GPIO9) },"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "SW13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW13), MP_ROM_PTR(&pin_GPIO8) },"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SW14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW14), MP_ROM_PTR(&pin_GPIO7) },"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "SW15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SW15), MP_ROM_PTR(&pin_GPIO6) },"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "USER_SW",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_USER_SW), MP_ROM_PTR(&pin_GPIO23) },"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "board": "sensebox_eye",
+ "aliases": [
+  "sensebox_eye"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/sensebox_eye/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO45",
+   "function": "PIN_RGB_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_RGB_LED 45 // RGB LED"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "RGBLED_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RGBLED_PIN 45 // RGB LED"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "PIN_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_LED 45"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN = PIN_RGB_LED;",
+   "also": [
+    "#define PIN_RGB_LED 45 // RGB LED"
+   ]
+  },
+  {
+   "pin": "GPIO45",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN LED_BUILTIN // allow #ifdef LED_BUILTIN",
+   "also": [
+    "static const uint8_t LED_BUILTIN = PIN_RGB_LED;",
+    "#define PIN_RGB_LED 45 // RGB LED"
+   ]
+  },
+  {
+   "pin": "GPIO2",
+   "function": "PIN_WIRE_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_WIRE_SDA 2"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "PIN_WIRE_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_WIRE_SCL 1"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = PIN_WIRE_SDA;",
+   "also": [
+    "#define PIN_WIRE_SDA 2"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = PIN_WIRE_SCL;",
+   "also": [
+    "#define PIN_WIRE_SCL 1"
+   ]
+  },
+  {
+   "pin": "GPIO38",
+   "function": "PIN_SPI_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SPI_MOSI 38"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "PIN_SPI_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SPI_MISO 40"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "PIN_SPI_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SPI_SCK 39"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "PIN_SPI_SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SPI_SS 41"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = PIN_SPI_MOSI;",
+   "also": [
+    "#define PIN_SPI_MOSI 38"
+   ]
+  },
+  {
+   "pin": "GPIO40",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = PIN_SPI_MISO;",
+   "also": [
+    "#define PIN_SPI_MISO 40"
+   ]
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = PIN_SPI_SCK;",
+   "also": [
+    "#define PIN_SPI_SCK 39"
+   ]
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = PIN_SPI_SS;",
+   "also": [
+    "#define PIN_SPI_SS 41"
+   ]
+  },
+  {
+   "pin": "GPIO14",
+   "function": "PIN_IO14",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_IO14 14"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "A14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A14 = PIN_IO14; // Analog",
+   "also": [
+    "#define PIN_IO14 14"
+   ]
+  },
+  {
+   "pin": "GPIO14",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D14 = PIN_IO14; // Digital",
+   "also": [
+    "#define PIN_IO14 14"
+   ]
+  },
+  {
+   "pin": "GPIO14",
+   "function": "T14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T14 = PIN_IO14; // Touch",
+   "also": [
+    "#define PIN_IO14 14"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "PIN_IO48",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_IO48 48"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "A48",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A48 = PIN_IO48; // Analog",
+   "also": [
+    "#define PIN_IO48 48"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "D48",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t D48 = PIN_IO48; // Digital",
+   "also": [
+    "#define PIN_IO48 48"
+   ]
+  },
+  {
+   "pin": "GPIO48",
+   "function": "T48",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T48 = PIN_IO48; // Touch",
+   "also": [
+    "#define PIN_IO48 48"
+   ]
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SENSEBOX_EYE_BUTTON_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define SENSEBOX_EYE_BUTTON_PIN 21",
+   "condition": "!SENSEBOX_EYE_BUTTON_PIN"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "PIN_BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_BUTTON SENSEBOX_EYE_BUTTON_PIN",
+   "also": [
+    "#define SENSEBOX_EYE_BUTTON_PIN 21"
+   ],
+   "condition": "!SENSEBOX_EYE_BUTTON_PIN"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BUTTON SENSEBOX_EYE_BUTTON_PIN",
+   "also": [
+    "#define SENSEBOX_EYE_BUTTON_PIN 21"
+   ],
+   "condition": "!SENSEBOX_EYE_BUTTON_PIN"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "PIN_SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SD_CS 41"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "PIN_SD_SW",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SD_SW 42"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "PIN_SD_ENABLE",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_SD_ENABLE 3"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "PIN_USB_DM",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_USB_DM 19 // DM = D Minus"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "PIN_USB_DN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_USB_DN 19 // DN = D Negative (same as DM)"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "PIN_USB_DP",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_USB_DP 20"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "PIN_LORA_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_LORA_CS 43"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "PIN_LORA_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_LORA_INT 44"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "board": "wt32-sc01-plus",
+ "aliases": [
+  "wt32-sc01-plus"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/wt32-sc01-plus/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "BOOT_0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BOOT_0 = 0;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "IO1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO1 = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "IO2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO2 = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "IO3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO3 = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "IO4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO4 = 13;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "IO5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO5 = 14;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "IO6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t IO6 = 21;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 42;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "RTS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RTS = 2;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "BL_PWM",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BL_PWM = 45; //BACKLIGHT PWM"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "LCD_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_RESET = 4; //LCD RESET, MULTIPLEXED WITH TOUCH RESET"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "LCD_RS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_RS = 0; //COMMAND/DATA"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "LCD_WR",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_WR = 47; //WRITE CLOCK"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "LCD_TE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_TE = 48; //FRAME SYNC"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "LCD_DB0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB0 = 9;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "LCD_DB1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB1 = 46;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "LCD_DB2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB2 = 3;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "LCD_DB3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB3 = 8;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "LCD_DB4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB4 = 18;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "LCD_DB5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB5 = 17;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "LCD_DB6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB6 = 16;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "LCD_DB7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LCD_DB7 = 15;"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "LRCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LRCK = 35;"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "BCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BCLK = 36;"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "DOUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DOUT = 37;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "TP_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TP_INT = 7;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 6;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 5;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RST = 4;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SD_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CS = 41;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "SD_DI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_DI = 40; //MOSI"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "SD_DO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_DO = 38; //MISO"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SD_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CLK = 39;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 41;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 40;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 38;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 39;"
+  }
+ ]
+}

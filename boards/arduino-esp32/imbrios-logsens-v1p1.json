@@ -1,0 +1,291 @@
+{
+ "board": "imbrios-logsens-v1p1",
+ "aliases": [
+  "imbrios-logsens-v1p1"
+ ],
+ "mcu": "ESP32 family",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/imbrios-logsens-v1p1/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO33",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED_BUILTIN = 33;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "LED_BUILTIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define LED_BUILTIN LED_BUILTIN // allow testing #ifdef LED_BUILTIN",
+   "also": [
+    "static const uint8_t LED_BUILTIN = 33;"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "UART2_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UART2_TX = 17;",
+   "condition": "BOARD_VARIANT_RS485"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "UART2_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UART2_RX = 16;",
+   "condition": "BOARD_VARIANT_RS485"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "UART2_RTS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UART2_RTS = 4;",
+   "condition": "BOARD_VARIANT_RS485"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "CAN_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t CAN_TX = 17;",
+   "condition": "BOARD_VARIANT_CAN"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "CAN_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t CAN_RX = 16;",
+   "condition": "BOARD_VARIANT_CAN"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "CAN_TXDE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t CAN_TXDE = 4;",
+   "condition": "BOARD_VARIANT_CAN"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 22;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 15; // SPI Chip Select - 0; Connected to Extension Header, Pin_3 on the LogSens V1.1 Board"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 12;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 14;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "SS1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS1 = 23; // SPI Chip Select - 1; connected to MicroSD Card on the LogSens V1.1 Board"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "BUZZER_CTRL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUZZER_CTRL = 19; // Signal connected to MOSFET gate pin to control connector (X8)"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "SD_CARD_DETECT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_CARD_DETECT = 35; // MicroSD Card (X6): Card Detect Signal"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "SW2_BUILDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SW2_BUILDIN = 0; // Tactile Switch-2 (SW2); ESP32 BOOT0 pin, Use it with care !!"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "SW3_BUILDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SW3_BUILDIN = 36; // Tactile Switch-3 (SW3)"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "SW4_BUILDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SW4_BUILDIN = 34; // Tactile Switch-4 (SW4)"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "LED1_BUILDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED1_BUILDIN = 32; // Connected to LogSens V1.1: LED6"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "LED2_BUILDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED2_BUILDIN = 33; // Connected to LogSens V1.1: LED7"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 32;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 33;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A12 = 2;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "A13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A13 = 15;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "A17",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A17 = 27;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "A18",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A18 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "A19",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A19 = 26;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "T2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T2 = 2;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "T3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T3 = 15;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "T7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T7 = 27;"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "T8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T8 = 33;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "T9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T9 = 32;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "DAC1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC1 = 25;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "DAC2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DAC2 = 26;"
+  }
+ ]
+}

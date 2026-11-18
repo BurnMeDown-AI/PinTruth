@@ -1,0 +1,44 @@
+{
+ "board": "MDBT50Q-RX Dongle",
+ "aliases": [
+  "raytac_mdbt50q-rx"
+ ],
+ "mcu": "nRF52840",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/raytac_mdbt50q-rx/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_15",
+   "function": "P0_15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0_15), MP_ROM_PTR(&pin_P0_15) },"
+  },
+  {
+   "pin": "P0_15",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON), MP_ROM_PTR(&pin_P0_15) },"
+  },
+  {
+   "pin": "P1_13",
+   "function": "P1_13",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1_13), MP_ROM_PTR(&pin_P1_13) },"
+  },
+  {
+   "pin": "P1_13",
+   "function": "INVERTED_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_INVERTED_LED), MP_ROM_PTR(&pin_P1_13) },"
+  }
+ ]
+}

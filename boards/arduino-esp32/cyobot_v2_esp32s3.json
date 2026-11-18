@@ -1,0 +1,246 @@
+{
+ "board": "cyobot_v2_esp32s3",
+ "aliases": [
+  "cyobot_v2_esp32s3"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/cyobot_v2_esp32s3/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO4",
+   "function": "BUTTON0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON0 = 4;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "BUTTON1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BUTTON1 = 38;"
+  },
+  {
+   "pin": "GPIO24",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t LED = 24;",
+   "invalid": "GPIO24 does not exist on esp32s3 (ESP-IDF SOC_GPIO_VALID_GPIO_MASK)"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "BAT_MEAS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BAT_MEAS = 6;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "BAT_VOLT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BAT_VOLT_PIN BAT_MEAS",
+   "also": [
+    "static const uint8_t BAT_MEAS = 6;"
+   ]
+  },
+  {
+   "pin": "GPIO23",
+   "function": "CHAR_DET",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t CHAR_DET = 23;",
+   "invalid": "GPIO23 does not exist on esp32s3 (ESP-IDF SOC_GPIO_VALID_GPIO_MASK)"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "NEO_BASE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t NEO_BASE = 7;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "NEO_BRAIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t NEO_BRAIN = 15;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "I2S0_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t I2S0_MCLK = 16;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "I2S0_DSDIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t I2S0_DSDIN = 8;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "I2S0_SCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t I2S0_SCLK = 9;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "I2S0_LRCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t I2S0_LRCK = 45;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 18;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 5;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 2;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 42;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 41;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "ENCODER1_A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ENCODER1_A = 39;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "ENCODER1_B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ENCODER1_B = 40;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "ENCODER2_B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ENCODER2_B = 19;"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "ENCODER2_A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ENCODER2_A = 20;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "UART1_RXD",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UART1_RXD = 3;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "UART1_TXD",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UART1_TXD = 1;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "GPIO46",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t GPIO46 = 46;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "ESP_IO0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ESP_IO0 = 0;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "SD_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_OUT = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "SD_SPI_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_SPI_MOSI = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SD_SPI_CLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_SPI_CLK = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "SD_SPI_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_SPI_MISO = 13;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "SD_SPI_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SD_SPI_CS = 14;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "PA_CTRL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PA_CTRL = 25;",
+   "invalid": "GPIO25 does not exist on esp32s3 (ESP-IDF SOC_GPIO_VALID_GPIO_MASK)"
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "board": "ftswarmrc",
+ "aliases": [
+  "ftswarmrc"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/ftswarmrc/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "FTSWARM_HAL_IO_DIGITAL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_DIGITAL = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "FTSWARM_HAL_IO_ANALOG",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_ANALOG = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "FTSWARM_HAL_IO_PWRCTL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_PWRCTL = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "FTSWARM_HAL_IO_MOTOR",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_MOTOR = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "FTSWARM_HAL_IO_STEPPER",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_STEPPER = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "FTSWARM_HAL_IO_JOYSTICKPOTI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_JOYSTICKPOTI = 6;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "FTSWARM_HAL_IO_RCSERVO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_RCSERVO = 7;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "FTSWARM_HAL_IO_WHEELDRIVE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_WHEELDRIVE = 8;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "FTSWARM_HAL_IO_RCP",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_IO_RCP = 9;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "GYRO_NONE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_NONE = 0;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "GYRO_6050",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_6050 = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "GYRO_LSM6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_LSM6 = 2;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "GYRO_SPI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_SPI = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "GYRO_INTERNAL_I2C",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_INTERNAL_I2C = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "GYRO_EXTERNAL_I2C",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t GYRO_EXTERNAL_I2C = 3;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t SS = GPIO_NUM_3;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t MOSI = GPIO_NUM_38;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t MISO = GPIO_NUM_39;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t SCK = GPIO_NUM_40;"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t TX = GPIO_NUM_43;"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t RX = GPIO_NUM_44;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "FTSWARM_HAL_GYRO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_GYRO = GYRO_LSM6;",
+   "also": [
+    "static const int8_t GYRO_LSM6 = 2;"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "FTSWARM_HAL_GYRO_PORT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t FTSWARM_HAL_GYRO_PORT = GYRO_SPI;",
+   "also": [
+    "static const int8_t GYRO_SPI = 1;"
+   ]
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A1 = GPIO_NUM_1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A2 = GPIO_NUM_2;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A3 = GPIO_NUM_19;"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A4 = GPIO_NUM_20;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A5 = GPIO_NUM_13;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "A6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t A6 = GPIO_NUM_11;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "T1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t T1 = GPIO_NUM_16;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "PWRCTL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t PWRCTL = GPIO_NUM_12;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "RCP1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t RCP1 = GPIO_NUM_6;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "RCP2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t RCP2 = GPIO_NUM_7;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "RCP3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t RCP3 = GPIO_NUM_8;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "RCP4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t RCP4 = GPIO_NUM_9;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "USTX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t USTX = GPIO_NUM_42;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "PUA2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t PUA2 = GPIO_NUM_41;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "M1A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M1A = GPIO_NUM_14;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "M1B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M1B = GPIO_NUM_21;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "M2A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M2A = GPIO_NUM_45;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "M2B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M2B = GPIO_NUM_46;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "M3A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M3A = GPIO_NUM_15;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "M3B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M3B = GPIO_NUM_17;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "M4A",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M4A = GPIO_NUM_18;"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "M4B",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const gpio_num_t M4B = GPIO_NUM_47;"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "RCSERVO_BASE_PORT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const int8_t RCSERVO_BASE_PORT = 8;"
+  }
+ ]
+}

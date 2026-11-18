@@ -1,0 +1,149 @@
+{
+ "board": "Yoto Mini 2024",
+ "aliases": [
+  "yoto_mini_2024"
+ ],
+ "mcu": "ESP32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/espressif/boards/yoto_mini_2024/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO39",
+   "function": "ENC1A",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ENC1A), MP_OBJ_FROM_PTR(&pin_GPIO39) },"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "ENC1B",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ENC1B), MP_OBJ_FROM_PTR(&pin_GPIO35) },"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "ENC2A",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ENC2A), MP_OBJ_FROM_PTR(&pin_GPIO36) },"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "ENC2B",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_ENC2B), MP_OBJ_FROM_PTR(&pin_GPIO27) },"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_OBJ_FROM_PTR(&pin_GPIO25) },"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_OBJ_FROM_PTR(&pin_GPIO21) },"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "DISPLAY_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DISPLAY_SCK), MP_OBJ_FROM_PTR(&pin_GPIO23) },"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "DISPLAY_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_DISPLAY_MOSI), MP_OBJ_FROM_PTR(&pin_GPIO22) },"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "NFC_IN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NFC_IN), MP_OBJ_FROM_PTR(&pin_GPIO32) },"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_RX), MP_OBJ_FROM_PTR(&pin_GPIO32) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "NFC_OUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_NFC_OUT), MP_OBJ_FROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TX), MP_OBJ_FROM_PTR(&pin_GPIO33) },"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "I2S_MCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_MCLK), MP_OBJ_FROM_PTR(&pin_GPIO0) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "I2S_BIT_CLOCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_BIT_CLOCK), MP_OBJ_FROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "I2S_BCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_BCLK), MP_OBJ_FROM_PTR(&pin_GPIO5) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "I2S_WORD_SELECT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_WORD_SELECT), MP_OBJ_FROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "I2S_LRCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_LRCLK), MP_OBJ_FROM_PTR(&pin_GPIO18) },"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "I2S_DOUT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2S_DOUT), MP_OBJ_FROM_PTR(&pin_GPIO19) },"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "IOEXPANDER_INT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_IOEXPANDER_INT), MP_OBJ_FROM_PTR(&pin_GPIO34) },"
+  }
+ ]
+}

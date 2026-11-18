@@ -1,0 +1,208 @@
+{
+ "board": "watchy",
+ "aliases": [
+  "watchy"
+ ],
+ "mcu": "esp32",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/watchy/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO1",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 1;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 3;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 21;"
+  },
+  {
+   "pin": "GPIO22",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 22;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 5;"
+  },
+  {
+   "pin": "GPIO23",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 23;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 19;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 18;"
+  },
+  {
+   "pin": "GPIO26",
+   "function": "MENU_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MENU_BTN_PIN = 26;"
+  },
+  {
+   "pin": "GPIO25",
+   "function": "BACK_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BACK_BTN_PIN = 25;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "DOWN_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DOWN_BTN_PIN = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "DISPLAY_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DISPLAY_CS = 5;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "DISPLAY_RES",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DISPLAY_RES = 9;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "DISPLAY_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DISPLAY_DC = 10;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "DISPLAY_BUSY",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t DISPLAY_BUSY = 19;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "ACC_INT_1_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ACC_INT_1_PIN = 14;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "ACC_INT_2_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t ACC_INT_2_PIN = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "VIB_MOTOR_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t VIB_MOTOR_PIN = 13;"
+  },
+  {
+   "pin": "GPIO27",
+   "function": "RTC_INT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RTC_INT_PIN = 27;"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "UP_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UP_BTN_PIN = 32;",
+   "condition": "defined(ARDUINO_WATCHY_V10)"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "BATT_ADC_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BATT_ADC_PIN = 33;",
+   "condition": "defined(ARDUINO_WATCHY_V10)"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "BAT_VOLT_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BAT_VOLT_PIN BATT_ADC_PIN",
+   "also": [
+    "static const uint8_t BATT_ADC_PIN = 33;"
+   ],
+   "condition": "defined(ARDUINO_WATCHY_V10)"
+  },
+  {
+   "pin": "GPIO32",
+   "function": "UP_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UP_BTN_PIN = 32;",
+   "condition": "defined(ARDUINO_WATCHY_V15)"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "BATT_ADC_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BATT_ADC_PIN = 35;",
+   "condition": "defined(ARDUINO_WATCHY_V15)"
+  },
+  {
+   "pin": "GPIO35",
+   "function": "UP_BTN_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t UP_BTN_PIN = 35;",
+   "condition": "defined(ARDUINO_WATCHY_V20)"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "BATT_ADC_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t BATT_ADC_PIN = 34;",
+   "condition": "defined(ARDUINO_WATCHY_V20)"
+  }
+ ]
+}

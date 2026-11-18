@@ -1,0 +1,568 @@
+{
+ "board": "SAM E54 Xplained Pro",
+ "aliases": [
+  "same54_xplained"
+ ],
+ "mcu": "same54p20",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/atmel-samd/boards/same54_xplained/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PD08",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_PD08) },"
+  },
+  {
+   "pin": "PD09",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_PD09) },"
+  },
+  {
+   "pin": "PA12",
+   "function": "VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_VSYNC), MP_ROM_PTR(&pin_PA12) },"
+  },
+  {
+   "pin": "PA13",
+   "function": "HSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_HSYNC), MP_ROM_PTR(&pin_PA13) },"
+  },
+  {
+   "pin": "PA14",
+   "function": "PCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PCLK), MP_ROM_PTR(&pin_PA14) },"
+  },
+  {
+   "pin": "PA15",
+   "function": "XCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_XCLK), MP_ROM_PTR(&pin_PA15) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "D07",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D07), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA22",
+   "function": "D06",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D06), MP_ROM_PTR(&pin_PA22) },"
+  },
+  {
+   "pin": "PA21",
+   "function": "D05",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D05), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "D04",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D04), MP_ROM_PTR(&pin_PA20) },"
+  },
+  {
+   "pin": "PA19",
+   "function": "D03",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D03), MP_ROM_PTR(&pin_PA19) },"
+  },
+  {
+   "pin": "PA18",
+   "function": "D02",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D02), MP_ROM_PTR(&pin_PA18) },"
+  },
+  {
+   "pin": "PA17",
+   "function": "D01",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D01), MP_ROM_PTR(&pin_PA17) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "D00",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D00), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "D09",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D09), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "D08",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_D08), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PC12",
+   "function": "RST",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_RST), MP_ROM_PTR(&pin_PC12) },"
+  },
+  {
+   "pin": "PC11",
+   "function": "PWDN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PWDN), MP_ROM_PTR(&pin_PC11) },"
+  },
+  {
+   "pin": "PC16",
+   "function": "PDEC_A",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PDEC_A), MP_ROM_PTR(&pin_PC16) },"
+  },
+  {
+   "pin": "PC17",
+   "function": "PDEC_B",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PDEC_B), MP_ROM_PTR(&pin_PC17) },"
+  },
+  {
+   "pin": "PC18",
+   "function": "PDEC_C",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PDEC_C), MP_ROM_PTR(&pin_PC18) },"
+  },
+  {
+   "pin": "PA02",
+   "function": "ADCDAC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_ADCDAC), MP_ROM_PTR(&pin_PA02) },"
+  },
+  {
+   "pin": "PB31",
+   "function": "SW0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_SW0), MP_ROM_PTR(&pin_PB31) },"
+  },
+  {
+   "pin": "PC18",
+   "function": "LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PC18) },"
+  },
+  {
+   "pin": "PA16",
+   "function": "QT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_QT), MP_ROM_PTR(&pin_PA16) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "CAN_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CAN_RX), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "CAN_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CAN_TX), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PC13",
+   "function": "CAN_STANDBY",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_CAN_STANDBY), MP_ROM_PTR(&pin_PC13) },"
+  },
+  {
+   "pin": "PB04",
+   "function": "PB04",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB04), MP_ROM_PTR(&pin_PB04) },"
+  },
+  {
+   "pin": "PB05",
+   "function": "PB05",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB05), MP_ROM_PTR(&pin_PB05) },"
+  },
+  {
+   "pin": "PA06",
+   "function": "PA06",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA06), MP_ROM_PTR(&pin_PA06) },"
+  },
+  {
+   "pin": "PA07",
+   "function": "PA07",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA07), MP_ROM_PTR(&pin_PA07) },"
+  },
+  {
+   "pin": "PB08",
+   "function": "PB08",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB08), MP_ROM_PTR(&pin_PB08) },"
+  },
+  {
+   "pin": "PB09",
+   "function": "PB09",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB09), MP_ROM_PTR(&pin_PB09) },"
+  },
+  {
+   "pin": "PB07",
+   "function": "PB07",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB07), MP_ROM_PTR(&pin_PB07) },"
+  },
+  {
+   "pin": "PA27",
+   "function": "PA27",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA27), MP_ROM_PTR(&pin_PA27) },"
+  },
+  {
+   "pin": "PC22",
+   "function": "PC22",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC22), MP_ROM_PTR(&pin_PC22) },"
+  },
+  {
+   "pin": "PA23",
+   "function": "PA23",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA23), MP_ROM_PTR(&pin_PA23) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "PA05",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA05), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PA04",
+   "function": "PA04",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA04), MP_ROM_PTR(&pin_PA04) },"
+  },
+  {
+   "pin": "PB28",
+   "function": "PB28",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB28), MP_ROM_PTR(&pin_PB28) },"
+  },
+  {
+   "pin": "PB27",
+   "function": "PB27",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB27), MP_ROM_PTR(&pin_PB27) },"
+  },
+  {
+   "pin": "PB29",
+   "function": "PB29",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB29), MP_ROM_PTR(&pin_PB29) },"
+  },
+  {
+   "pin": "PB26",
+   "function": "PB26",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB26), MP_ROM_PTR(&pin_PB26) },"
+  },
+  {
+   "pin": "PB00",
+   "function": "PB00",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB00), MP_ROM_PTR(&pin_PB00) },"
+  },
+  {
+   "pin": "PA03",
+   "function": "PA03",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PA03), MP_ROM_PTR(&pin_PA03) },"
+  },
+  {
+   "pin": "PB01",
+   "function": "PB01",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB01), MP_ROM_PTR(&pin_PB01) },"
+  },
+  {
+   "pin": "PB06",
+   "function": "PB06",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB06), MP_ROM_PTR(&pin_PB06) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "PB14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB14), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "PB15",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB15), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PD00",
+   "function": "PD00",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD00), MP_ROM_PTR(&pin_PD00) },"
+  },
+  {
+   "pin": "PB02",
+   "function": "PB02",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB02), MP_ROM_PTR(&pin_PB02) },"
+  },
+  {
+   "pin": "PD08",
+   "function": "PD08",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD08), MP_ROM_PTR(&pin_PD08) },"
+  },
+  {
+   "pin": "PD09",
+   "function": "PD09",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD09), MP_ROM_PTR(&pin_PD09) },"
+  },
+  {
+   "pin": "PB17",
+   "function": "PB17",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB17), MP_ROM_PTR(&pin_PB17) },"
+  },
+  {
+   "pin": "PB16",
+   "function": "PB16",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PB16), MP_ROM_PTR(&pin_PB16) },"
+  },
+  {
+   "pin": "PC06",
+   "function": "PC06",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC06), MP_ROM_PTR(&pin_PC06) },"
+  },
+  {
+   "pin": "PC04",
+   "function": "PC04",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC04), MP_ROM_PTR(&pin_PC04) },"
+  },
+  {
+   "pin": "PC07",
+   "function": "PC07",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC07), MP_ROM_PTR(&pin_PC07) },"
+  },
+  {
+   "pin": "PC05",
+   "function": "PC05",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC05), MP_ROM_PTR(&pin_PC05) },"
+  },
+  {
+   "pin": "PC02",
+   "function": "PC02",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC02), MP_ROM_PTR(&pin_PC02) },"
+  },
+  {
+   "pin": "PC03",
+   "function": "PC03",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC03), MP_ROM_PTR(&pin_PC03) },"
+  },
+  {
+   "pin": "PC10",
+   "function": "PC10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC10), MP_ROM_PTR(&pin_PC10) },"
+  },
+  {
+   "pin": "PC01",
+   "function": "PC01",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC01), MP_ROM_PTR(&pin_PC01) },"
+  },
+  {
+   "pin": "PD11",
+   "function": "PD11",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD11), MP_ROM_PTR(&pin_PD11) },"
+  },
+  {
+   "pin": "PD10",
+   "function": "PD10",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD10), MP_ROM_PTR(&pin_PD10) },"
+  },
+  {
+   "pin": "PC31",
+   "function": "PC31",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC31), MP_ROM_PTR(&pin_PC31) },"
+  },
+  {
+   "pin": "PC30",
+   "function": "PC30",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC30), MP_ROM_PTR(&pin_PC30) },"
+  },
+  {
+   "pin": "PD09",
+   "function": "PD09",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD09), MP_ROM_PTR(&pin_PD09) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PD08",
+   "function": "PD08",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PD08), MP_ROM_PTR(&pin_PD08) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PC22",
+   "function": "PC22",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC22), MP_ROM_PTR(&pin_PC22) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PC23",
+   "function": "PC23",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC23), MP_ROM_PTR(&pin_PC23) },"
+  },
+  {
+   "pin": "PC04",
+   "function": "PC04",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC04), MP_ROM_PTR(&pin_PC04) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PC14",
+   "function": "PC14",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC14), MP_ROM_PTR(&pin_PC14) },"
+  },
+  {
+   "pin": "PC05",
+   "function": "PC05",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC05), MP_ROM_PTR(&pin_PC05) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PC07",
+   "function": "PC07",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_OBJ_NEW_QSTR(MP_QSTR_PC07), MP_ROM_PTR(&pin_PC07) },",
+   "unreachable": "an earlier entry with this name wins in CircuitPython"
+  },
+  {
+   "pin": "PA21",
+   "function": "SDIO_CLOCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_CLOCK), MP_ROM_PTR(&pin_PA21) },"
+  },
+  {
+   "pin": "PA20",
+   "function": "SDIO_COMMAND",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDIO_COMMAND), MP_ROM_PTR(&pin_PA20) },"
+  }
+ ]
+}

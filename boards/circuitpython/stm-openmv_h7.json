@@ -1,0 +1,226 @@
+{
+ "board": "OPENMV-H7 R1",
+ "aliases": [
+  "openmv_h7"
+ ],
+ "mcu": "STM32H743",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/stm/boards/openmv_h7/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "PB15",
+   "function": "P0",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P0), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "P1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P1), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "P2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P2), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "P3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P3), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PB10",
+   "function": "P4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P4), MP_ROM_PTR(&pin_PB10) },"
+  },
+  {
+   "pin": "PB11",
+   "function": "P5",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P5), MP_ROM_PTR(&pin_PB11) },"
+  },
+  {
+   "pin": "PA05",
+   "function": "P6",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P6), MP_ROM_PTR(&pin_PA05) },"
+  },
+  {
+   "pin": "PD12",
+   "function": "P7",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P7), MP_ROM_PTR(&pin_PD12) },"
+  },
+  {
+   "pin": "PD13",
+   "function": "P8",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P8), MP_ROM_PTR(&pin_PD13) },"
+  },
+  {
+   "pin": "PD14",
+   "function": "P9",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_P9), MP_ROM_PTR(&pin_PD14) },"
+  },
+  {
+   "pin": "PC00",
+   "function": "LED1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED1), MP_ROM_PTR(&pin_PC00) },"
+  },
+  {
+   "pin": "PC01",
+   "function": "LED2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED2), MP_ROM_PTR(&pin_PC01) },"
+  },
+  {
+   "pin": "PC02",
+   "function": "LED3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED3), MP_ROM_PTR(&pin_PC02) },"
+  },
+  {
+   "pin": "PE02",
+   "function": "LED4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED4), MP_ROM_PTR(&pin_PE02) },"
+  },
+  {
+   "pin": "PC00",
+   "function": "LED_RED",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_RED), MP_ROM_PTR(&pin_PC00) },"
+  },
+  {
+   "pin": "PC01",
+   "function": "LED_GREEN",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_GREEN), MP_ROM_PTR(&pin_PC01) },"
+  },
+  {
+   "pin": "PC02",
+   "function": "LED_BLUE",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_BLUE), MP_ROM_PTR(&pin_PC02) },"
+  },
+  {
+   "pin": "PE02",
+   "function": "LED_IR",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_LED_IR), MP_ROM_PTR(&pin_PE02) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "UART1_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART1_TX), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "UART1_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART1_RX), MP_ROM_PTR(&pin_PB15) },"
+  },
+  {
+   "pin": "PB10",
+   "function": "UART3_TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART3_TX), MP_ROM_PTR(&pin_PB10) },"
+  },
+  {
+   "pin": "PB11",
+   "function": "UART3_RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_UART3_RX), MP_ROM_PTR(&pin_PB11) },"
+  },
+  {
+   "pin": "PB10",
+   "function": "I2C2_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C2_SCL), MP_ROM_PTR(&pin_PB10) },"
+  },
+  {
+   "pin": "PB11",
+   "function": "I2C2_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C2_SDA), MP_ROM_PTR(&pin_PB11) },"
+  },
+  {
+   "pin": "PD12",
+   "function": "I2C4_SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C4_SCL), MP_ROM_PTR(&pin_PD12) },"
+  },
+  {
+   "pin": "PD13",
+   "function": "I2C4_SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_I2C4_SDA), MP_ROM_PTR(&pin_PD13) },"
+  },
+  {
+   "pin": "PB12",
+   "function": "SPI2_NSS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI2_NSS), MP_ROM_PTR(&pin_PB12) },"
+  },
+  {
+   "pin": "PB13",
+   "function": "SPI2_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI2_SCK), MP_ROM_PTR(&pin_PB13) },"
+  },
+  {
+   "pin": "PB14",
+   "function": "SPI2_MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI2_MISO), MP_ROM_PTR(&pin_PB14) },"
+  },
+  {
+   "pin": "PB15",
+   "function": "SPI2_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SPI2_MOSI), MP_ROM_PTR(&pin_PB15) },"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "board": "Open Hardware Summit 2020 Badge",
+ "aliases": [
+  "ohs2020_badge"
+ ],
+ "mcu": "nRF52840",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/adafruit/circuitpython/e8042e8c9df6916890d3d186a41b65b63c8ea490/ports/nordic/boards/ohs2020_badge/pins.c",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "P0_25",
+   "function": "MICROPHONE_CLOCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MICROPHONE_CLOCK), MP_ROM_PTR(&pin_P0_25) },"
+  },
+  {
+   "pin": "P0_28",
+   "function": "MICROPHONE_DATA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_MICROPHONE_DATA), MP_ROM_PTR(&pin_P0_28) },"
+  },
+  {
+   "pin": "P0_13",
+   "function": "TFT_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_RESET), MP_ROM_PTR(&pin_P0_13) },"
+  },
+  {
+   "pin": "P0_02",
+   "function": "TFT_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_BACKLIGHT), MP_ROM_PTR(&pin_P0_02) },"
+  },
+  {
+   "pin": "P0_14",
+   "function": "TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_CS), MP_ROM_PTR(&pin_P0_14) },"
+  },
+  {
+   "pin": "P0_08",
+   "function": "TFT_DC",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_DC), MP_ROM_PTR(&pin_P0_08) },"
+  },
+  {
+   "pin": "P0_11",
+   "function": "TFT_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_SCK), MP_ROM_PTR(&pin_P0_11) },"
+  },
+  {
+   "pin": "P0_12",
+   "function": "TFT_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_TFT_MOSI), MP_ROM_PTR(&pin_P0_12) },"
+  },
+  {
+   "pin": "P1_14",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SCL), MP_ROM_PTR(&pin_P1_14) },"
+  },
+  {
+   "pin": "P1_15",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_SDA), MP_ROM_PTR(&pin_P1_15) },"
+  },
+  {
+   "pin": "P0_29",
+   "function": "BUTTON_SW1",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_SW1), MP_ROM_PTR(&pin_P0_29) },"
+  },
+  {
+   "pin": "P0_03",
+   "function": "BUTTON_SW2",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_SW2), MP_ROM_PTR(&pin_P0_03) },"
+  },
+  {
+   "pin": "P0_17",
+   "function": "BUTTON_SW3",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_SW3), MP_ROM_PTR(&pin_P0_17) },"
+  },
+  {
+   "pin": "P1_03",
+   "function": "BUTTON_SW4",
+   "group": "board",
+   "source": "s1",
+   "quote": "{ MP_ROM_QSTR(MP_QSTR_BUTTON_SW4), MP_ROM_PTR(&pin_P1_03) },"
+  }
+ ]
+}

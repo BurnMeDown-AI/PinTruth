@@ -1,0 +1,94 @@
+{
+ "board": "waveshare_esp32_c5_lcd_1_47",
+ "aliases": [
+  "waveshare_esp32_c5_lcd_1_47"
+ ],
+ "mcu": "esp32c5",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/waveshare_esp32_c5_lcd_1_47/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO8",
+   "function": "PIN_RGB_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define PIN_RGB_LED RGB_LED",
+   "also": [
+    "#define RGB_LED 8"
+   ]
+  },
+  {
+   "pin": "GPIO11",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 12;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "USB_DM",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t USB_DM = 13;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "USB_DP",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t USB_DP = 14;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = SD_CS;",
+   "also": [
+    "#define SD_CS 4"
+   ]
+  },
+  {
+   "pin": "GPIO6",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = SD_MOSI;",
+   "also": [
+    "#define SD_MOSI 6"
+   ]
+  },
+  {
+   "pin": "GPIO5",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = SD_MISO;",
+   "also": [
+    "#define SD_MISO 5"
+   ]
+  },
+  {
+   "pin": "GPIO7",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = SD_CLK;",
+   "also": [
+    "#define SD_CLK 7"
+   ]
+  }
+ ]
+}

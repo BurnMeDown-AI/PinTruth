@@ -1,0 +1,442 @@
+{
+ "board": "ozobot_drvkit",
+ "aliases": [
+  "ozobot_drvkit"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/ozobot_drvkit/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO35",
+   "function": "D0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D0 = 35; // G0",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO36",
+   "function": "D1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D1 = 36; // G1",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO37",
+   "function": "D2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D2 = 37; // G2",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "D3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D3 = 38; // G3",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "D4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D4 = 45; // G4",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "D5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D5 = 46; // G5",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "D6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D6 = 39; // G6",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "D7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D7 = 40; // G7",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "D8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D8 = 41; // G8",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "D9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D9 = 42; // G9",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "D10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D10 = 18; // Motor L IN1",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "D11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D11 = 17; // Motor L IN2",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "D12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D12 = 21; // Motor R IN1",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "D13",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D13 = 33; // Motor R IN2",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "D14",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D14 = 34; // SPI CS",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "D15",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D15 = 12; // SPI CLK",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "D16",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D16 = 11; // SPI MOSI",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "D17",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D17 = 13; // SPI MISO",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "D18",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D18 = 47; // I2C SDA",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "D19",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D19 = 48; // I2C SCK",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "D20",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D20 = 14; // I2C Interrupt",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "D21",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D21 = 43; // UART TX",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "D22",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D22 = 44; // UART RX",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "D23",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t D23 = 0; // Boot pin",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A0 = 1;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A1 = 2;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A2 = 3;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A3 = 4;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A4 = 5;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A5 = 6;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "A6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A6 = 7;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "A7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A7 = 8;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "A8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A8 = 9;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "A9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t A9 = 10;",
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO43",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t TX = D21;",
+   "also": [
+    "static constexpr uint8_t D21 = 43; // UART TX"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO44",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t RX = D22;",
+   "also": [
+    "static constexpr uint8_t D22 = 44; // UART RX"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO34",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t SS = D14;",
+   "also": [
+    "static constexpr uint8_t D14 = 34; // SPI CS"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MOSI = D16;",
+   "also": [
+    "static constexpr uint8_t D16 = 11; // SPI MOSI"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MISO = D17;",
+   "also": [
+    "static constexpr uint8_t D17 = 13; // SPI MISO"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t SCK = D15;",
+   "also": [
+    "static constexpr uint8_t D15 = 12; // SPI CLK"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t SDA = D18;",
+   "also": [
+    "static constexpr uint8_t D18 = 47; // I2C SDA"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t SCL = D19;",
+   "also": [
+    "static constexpr uint8_t D19 = 48; // I2C SCK"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "MOTOR_L_IN1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MOTOR_L_IN1 = D10;",
+   "also": [
+    "static constexpr uint8_t D10 = 18; // Motor L IN1"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "MOTOR_L_IN2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MOTOR_L_IN2 = D11;",
+   "also": [
+    "static constexpr uint8_t D11 = 17; // Motor L IN2"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "MOTOR_R_IN1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MOTOR_R_IN1 = D12;",
+   "also": [
+    "static constexpr uint8_t D12 = 21; // Motor R IN1"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO33",
+   "function": "MOTOR_R_IN2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t MOTOR_R_IN2 = D13;",
+   "also": [
+    "static constexpr uint8_t D13 = 33; // Motor R IN2"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "BUTTON",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t BUTTON = D23;",
+   "also": [
+    "static constexpr uint8_t D23 = 0; // Boot pin"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "RGB_LED",
+   "group": "board",
+   "source": "s1",
+   "quote": "static constexpr uint8_t RGB_LED = D9;",
+   "also": [
+    "static constexpr uint8_t D9 = 42; // G9"
+   ],
+   "condition": "not (defined(BOARD_HAS_PIN_REMAP) && !defined(BOARD_USES_HW_GPIO_NUMBERS))"
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "board": "esp32p4_4ds_mipi",
+ "aliases": [
+  "esp32p4_4ds_mipi"
+ ],
+ "mcu": "esp32p4",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/esp32p4_4ds_mipi/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO37",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 37;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 38;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 2; // careful, also used as T0 pin"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 3; // careful, also used as T1 pin"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 6; // careful, also used as T2 pin"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 14; // careful, also used as T1 pin"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 15; // careful, also used as T0 pin"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 16; // careful, also used as A9 pin"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 21;"
+  },
+  {
+   "pin": "GPIO20",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 20;"
+  },
+  {
+   "pin": "GPIO19",
+   "function": "A2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A2 = 19;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "A3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A3 = 18;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "A4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A4 = 17;"
+  },
+  {
+   "pin": "GPIO52",
+   "function": "A5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A5 = 52;"
+  },
+  {
+   "pin": "GPIO51",
+   "function": "A6",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A6 = 51;"
+  },
+  {
+   "pin": "GPIO50",
+   "function": "A7",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A7 = 50;"
+  },
+  {
+   "pin": "GPIO49",
+   "function": "A8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A8 = 49;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "A9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A9 = 16; // careful, also used as SPI SS pin"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "T0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T0 = 15; // careful, also used as SPI MISO pin"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "T1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T1 = 14; // careful, also used as SPI MOSI pin"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "T2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T2 = 6; // careful, also used as SPI SCK pin"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "T3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T3 = 3; // careful, also used as I2C SCL pin"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "T4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T4 = 2; // careful, also used as I2C SDA pin"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "BOARD_SDMMC_POWER_PIN",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define BOARD_SDMMC_POWER_PIN 45"
+  }
+ ]
+}

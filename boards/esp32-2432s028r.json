@@ -1,0 +1,185 @@
+{
+ "board": "ESP32-2432S028R",
+ "aliases": [
+  "CYD",
+  "Cheap Yellow Display"
+ ],
+ "mcu": "ESP32",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/witnessmenow/ESP32-Cheap-Yellow-Display/4f6bfacd28e8cbf664848a946e2a5d389fdbf2b0/PINS.md",
+   "retrieved": "2026-11-17"
+  }
+ },
+ "pins": [
+  {
+   "function": "BOOT",
+   "group": "button",
+   "quote": "|IO0|BOOT|Can be used as an input in sketches|",
+   "source": "s1",
+   "pin": "GPIO0"
+  },
+  {
+   "function": "TFT_RS",
+   "group": "display",
+   "quote": "|IO2|TFT_RS|AKA: TFT_DC|",
+   "source": "s1",
+   "pin": "GPIO2"
+  },
+  {
+   "function": "Red LED",
+   "group": "rgb_led",
+   "quote": "|IO4|Red LED||",
+   "source": "s1",
+   "pin": "GPIO4"
+  },
+  {
+   "function": "SS",
+   "group": "sd",
+   "quote": "|IO5|SS||",
+   "source": "s1",
+   "pin": "GPIO5"
+  },
+  {
+   "function": "TFT_SDO",
+   "group": "display",
+   "quote": "|IO12|TFT_SDO|AKA: TFT_MISO|",
+   "source": "s1",
+   "pin": "GPIO12"
+  },
+  {
+   "function": "TFT_SDI",
+   "group": "display",
+   "quote": "|IO13|TFT_SDI|AKA: TFT_MOSI|",
+   "source": "s1",
+   "pin": "GPIO13"
+  },
+  {
+   "function": "TFT_SCK",
+   "group": "display",
+   "quote": "|IO14|TFT_SCK||",
+   "source": "s1",
+   "pin": "GPIO14"
+  },
+  {
+   "function": "TFT_CS",
+   "group": "display",
+   "quote": "|IO15|TFT_CS||",
+   "source": "s1",
+   "pin": "GPIO15"
+  },
+  {
+   "function": "Green LED",
+   "group": "rgb_led",
+   "quote": "|IO16|Green LED||",
+   "source": "s1",
+   "pin": "GPIO16"
+  },
+  {
+   "function": "Blue LED",
+   "group": "rgb_led",
+   "quote": "|IO17|Blue LED||",
+   "source": "s1",
+   "pin": "GPIO17"
+  },
+  {
+   "function": "SCK",
+   "group": "sd",
+   "quote": "|IO18|SCK||",
+   "source": "s1",
+   "pin": "GPIO18"
+  },
+  {
+   "function": "MISO",
+   "group": "sd",
+   "quote": "|IO19|MISO||",
+   "source": "s1",
+   "pin": "GPIO19"
+  },
+  {
+   "function": "TFT_BL",
+   "group": "display",
+   "quote": "|IO21|TFT_BL|Also on P3 connector, for some reason|",
+   "source": "s1",
+   "pin": "GPIO21"
+  },
+  {
+   "function": "free GPIO (P3, CN1)",
+   "group": "connector",
+   "quote": "|IO22|**P3** and **CN1** Molex PicoBlade connector||",
+   "source": "s1",
+   "pin": "GPIO22"
+  },
+  {
+   "function": "MOSI",
+   "group": "sd",
+   "quote": "|IO23|MOSI||",
+   "source": "s1",
+   "pin": "GPIO23"
+  },
+  {
+   "function": "XPT2046_CLK",
+   "group": "touch",
+   "quote": "|IO25|XPT2046_CLK||",
+   "source": "s1",
+   "pin": "GPIO25"
+  },
+  {
+   "function": "Connected to amp",
+   "group": "speaker",
+   "quote": "|IO26|Connected to amp|`i2s_set_dac_mode(I2S_DAC_CHANNEL_LEFT_EN);`|",
+   "source": "s1",
+   "pin": "GPIO26"
+  },
+  {
+   "function": "free GPIO (CN1)",
+   "group": "connector",
+   "quote": "|IO27|**CN1** Molex PicoBlade connector||",
+   "source": "s1",
+   "pin": "GPIO27"
+  },
+  {
+   "function": "XPT2046_MOSI",
+   "group": "touch",
+   "quote": "|IO32|XPT2046_MOSI||",
+   "source": "s1",
+   "pin": "GPIO32"
+  },
+  {
+   "function": "XPT2046_CS",
+   "group": "touch",
+   "quote": "|IO33|XPT2046_CS||",
+   "source": "s1",
+   "pin": "GPIO33"
+  },
+  {
+   "function": "LDR",
+   "group": "ldr",
+   "quote": "|IO34|||",
+   "source": "s1",
+   "pin": "GPIO34"
+  },
+  {
+   "function": "free GPIO (P3), input only",
+   "group": "connector",
+   "quote": "|IO35|**P3** Molex PicoBlade connector|Input only pin, no internal pull-ups available|",
+   "source": "s1",
+   "pin": "GPIO35"
+  },
+  {
+   "function": "XPT2046_IRQ",
+   "group": "touch",
+   "quote": "|IO36|XPT2046_IRQ||",
+   "source": "s1",
+   "pin": "GPIO36"
+  },
+  {
+   "function": "XPT2046_MISO",
+   "group": "touch",
+   "quote": "|IO39|XPT2046_MISO||",
+   "source": "s1",
+   "pin": "GPIO39"
+  }
+ ],
+ "origin": "curated"
+}

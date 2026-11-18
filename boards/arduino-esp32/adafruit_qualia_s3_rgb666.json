@@ -1,0 +1,344 @@
+{
+ "board": "adafruit_qualia_s3_rgb666",
+ "aliases": [
+  "adafruit_qualia_s3_rgb666"
+ ],
+ "mcu": "esp32s3",
+ "origin": "imported",
+ "sources": {
+  "s1": {
+   "url": "https://raw.githubusercontent.com/espressif/arduino-esp32/1e02ab5d9f1c4f0a574ae01997d4a9b7a81de12b/variants/adafruit_qualia_s3_rgb666/pins_arduino.h",
+   "retrieved": "2026-11-18"
+  }
+ },
+ "pins": [
+  {
+   "pin": "GPIO0",
+   "function": "PCA_TFT_SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_TFT_SCK = 0;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "PCA_TFT_CS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_TFT_CS = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "PCA_TFT_RESET",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_TFT_RESET = 2;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "PCA_CPT_IRQ",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_CPT_IRQ = 3;"
+  },
+  {
+   "pin": "GPIO4",
+   "function": "PCA_TFT_BACKLIGHT",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_TFT_BACKLIGHT = 4;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "PCA_BUTTON_UP",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_BUTTON_UP = 5;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "PCA_BUTTON_DOWN",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_BUTTON_DOWN = 6;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "PCA_TFT_MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t PCA_TFT_MOSI = 7;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "TX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TX = 16;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "RX",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t RX = 17;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "TX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define TX1 TX",
+   "also": [
+    "static const uint8_t TX = 16;"
+   ]
+  },
+  {
+   "pin": "GPIO17",
+   "function": "RX1",
+   "group": "board",
+   "source": "s1",
+   "quote": "#define RX1 RX",
+   "also": [
+    "static const uint8_t RX = 17;"
+   ]
+  },
+  {
+   "pin": "GPIO8",
+   "function": "SDA",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SDA = 8;"
+  },
+  {
+   "pin": "GPIO18",
+   "function": "SCL",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCL = 18;"
+  },
+  {
+   "pin": "GPIO15",
+   "function": "SS",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SS = 15;"
+  },
+  {
+   "pin": "GPIO7",
+   "function": "MOSI",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MOSI = 7;"
+  },
+  {
+   "pin": "GPIO6",
+   "function": "MISO",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t MISO = 6;"
+  },
+  {
+   "pin": "GPIO5",
+   "function": "SCK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t SCK = 5;"
+  },
+  {
+   "pin": "GPIO17",
+   "function": "A0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A0 = 17;"
+  },
+  {
+   "pin": "GPIO16",
+   "function": "A1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t A1 = 16;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "T3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T3 = 3; // Touch pin IDs map directly"
+  },
+  {
+   "pin": "GPIO8",
+   "function": "T8",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T8 = 8; // to underlying GPIO numbers NOT"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "T9",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T9 = 9; // the analog numbers on board silk"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "T10",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T10 = 10;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "T11",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T11 = 11;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "T12",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t T12 = 12;"
+  },
+  {
+   "pin": "GPIO11",
+   "function": "TFT_R1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_R1 = 11;"
+  },
+  {
+   "pin": "GPIO10",
+   "function": "TFT_R2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_R2 = 10;"
+  },
+  {
+   "pin": "GPIO9",
+   "function": "TFT_R3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_R3 = 9;"
+  },
+  {
+   "pin": "GPIO46",
+   "function": "TFT_R4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_R4 = 46;"
+  },
+  {
+   "pin": "GPIO3",
+   "function": "TFT_R5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_R5 = 3;"
+  },
+  {
+   "pin": "GPIO48",
+   "function": "TFT_G0",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G0 = 48;"
+  },
+  {
+   "pin": "GPIO47",
+   "function": "TFT_G1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G1 = 47;"
+  },
+  {
+   "pin": "GPIO21",
+   "function": "TFT_G2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G2 = 21;"
+  },
+  {
+   "pin": "GPIO14",
+   "function": "TFT_G3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G3 = 14;"
+  },
+  {
+   "pin": "GPIO13",
+   "function": "TFT_G4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G4 = 13;"
+  },
+  {
+   "pin": "GPIO12",
+   "function": "TFT_G5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_G5 = 12;"
+  },
+  {
+   "pin": "GPIO40",
+   "function": "TFT_B1",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_B1 = 40;"
+  },
+  {
+   "pin": "GPIO39",
+   "function": "TFT_B2",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_B2 = 39;"
+  },
+  {
+   "pin": "GPIO38",
+   "function": "TFT_B3",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_B3 = 38;"
+  },
+  {
+   "pin": "GPIO0",
+   "function": "TFT_B4",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_B4 = 0;"
+  },
+  {
+   "pin": "GPIO45",
+   "function": "TFT_B5",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_B5 = 45;"
+  },
+  {
+   "pin": "GPIO1",
+   "function": "TFT_PCLK",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_PCLK = 1;"
+  },
+  {
+   "pin": "GPIO2",
+   "function": "TFT_DE",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_DE = 2;"
+  },
+  {
+   "pin": "GPIO41",
+   "function": "TFT_HSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_HSYNC = 41;"
+  },
+  {
+   "pin": "GPIO42",
+   "function": "TFT_VSYNC",
+   "group": "board",
+   "source": "s1",
+   "quote": "static const uint8_t TFT_VSYNC = 42;"
+  }
+ ]
+}
